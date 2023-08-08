@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: black;
+    color: #000000;
     font-family: 'Amiri', sans-serif;
 }
 
@@ -23,20 +23,35 @@ header {
     background-color: #f3ccd5;
     padding: 0 1rem;
     position: fixed;
+    z-index: 99;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
 }
 
 header a {
     text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
     text-transform: uppercase;
+    color: inherit;
 }
 
 #menu {
     font-size: 110%;
     list-style-type: none;
+}
+
+menu>li {
+    margin-bottom: 1 em;
+}
+
+.flow {
+    border-bottom: 1px solid inherit;
 }
 
 /* Navbar styling and dropdown toggle */
@@ -61,7 +76,9 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: #000000;
 }
+
 
 /* Main Content */
 main {
