@@ -16,7 +16,6 @@ body {
     /* Generic project styles */
     color: black;
     font-family: 'Amiri', sans-serif;
-
 }
 
 /* Header */
@@ -25,5 +24,9 @@ header {
     padding: 0 1rem;
     position: fixed;
     width: 100%;
+}
+
+header a {
+    text-decoration: none;
 
 }
