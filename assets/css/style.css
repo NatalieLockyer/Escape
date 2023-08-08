@@ -1,3 +1,6 @@
+/* Google fonts added */
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=IBM+Plex+Sans:wght@200&display=swap');
+
 /* Wildcard to override default styles by the browser */
 * {
     padding: 0;
