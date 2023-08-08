@@ -8,6 +8,17 @@
     box-sizing: border-box;
 }
 
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: black;
+    font-family: 'Amiri', sans-serif;
+
+}
+
 /* Header */
 header {
     background-color: #f3ccd5;
