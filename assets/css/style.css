@@ -36,3 +36,27 @@ header a {
     font-size: 110%;
     list-style-type: none;
 }
+
+/* Navbar styling and dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #f3ccd5;
+    width: 100%;
+    right: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
