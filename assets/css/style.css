@@ -29,5 +29,9 @@ header {
 header a {
     text-decoration: none;
     color: inheret;
+}
 
+#menu {
+    font-size: 110%;
+    list-style-type: none;
 }
