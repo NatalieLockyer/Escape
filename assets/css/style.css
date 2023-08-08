@@ -60,7 +60,7 @@ nav {
     background-color: #f3ccd5;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding-left: 0 1rem;
     display: none;
     top: 100%;
 }
@@ -79,9 +79,40 @@ nav {
     color: #000000;
 }
 
-
 /* Main Content */
 main {
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* media query: tablets and larger (768px and up) */
+@media screen and (min-width: 769px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+
 }
