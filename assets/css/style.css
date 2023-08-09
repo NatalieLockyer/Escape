@@ -23,7 +23,6 @@ header {
     background-color: #f3ccd5;
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -84,6 +83,12 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
+#main-title {
+    font-family: ;
+}
+
+
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 769px) {
