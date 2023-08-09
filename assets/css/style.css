@@ -23,6 +23,7 @@ header {
     background-color: #f3ccd5;
     padding: 0 1rem;
     position: fixed;
+    z-index: 99;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -45,8 +46,8 @@ h1 {
     list-style-type: none;
 }
 
-menu>li {
-    margin-bottom: 1 em;
+#menu>li {
+    margin-bottom: 1em;
 }
 
 .flow {
@@ -59,7 +60,7 @@ nav {
     background-color: #f3ccd5;
     width: 100%;
     left: 0;
-    padding-left: 0 1rem;
+    padding: 0 1rem;
     display: none;
     top: 100%;
 }
@@ -75,17 +76,36 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color: #000000;
 }
 
 /* Main Content */
 main {
+    background-color: #ebe4d9;
+    /* Make main element take up surplus space */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin: 0;
 }
 
-#main-title {
-    font-family: ;
+/* footer */
+footer {
+    background-color: #f3ccd5;
+    height: 75px;
+}
+
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media li {
+    font-size: 20px;
+}
+
+#social-media a {
+    color: black;
 }
 
 
@@ -115,9 +135,8 @@ main {
 
     #logo {
         font-size: 280%;
-        line-height: 75px;
+        line-height: 50px;
         margin: 0 0.5rem;
     }
-
 
 }
