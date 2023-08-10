@@ -95,7 +95,6 @@ footer {
 #social-media {
     text-align: center;
     padding: 20px 0;
-    position: fixed;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
