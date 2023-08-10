@@ -80,7 +80,7 @@ nav {
 
 /* Main Content */
 main {
-    background-color: #ebe4d9;
+    background-color: #ebe7e0;
     /* Make main element take up surplus space */
     flex: 1 0 auto;
     margin: 0;
@@ -95,6 +95,7 @@ footer {
 #social-media {
     text-align: center;
     padding: 20px 0;
+    position: fixed;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
