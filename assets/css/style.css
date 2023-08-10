@@ -83,7 +83,15 @@ main {
     background-color: #ebe7e0;
     /* Make main element take up surplus space */
     flex: 1 0 auto;
-    margin: 0;
+    margin: 56px 0 0;
+}
+
+main #page-heading {
+    font-family: 'Amiri' sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 /* footer */
