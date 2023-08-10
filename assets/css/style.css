@@ -109,7 +109,15 @@ main #page-heading {
 }
 
 #about-me {
-    display: inline-block;
+    display: block;
+    text-align: center;
+    font-size: small;
+}
+
+#julie {
+    height: 150px;
+    width: 50px;
+    margin: 15px;
 }
 
 /* footer */
