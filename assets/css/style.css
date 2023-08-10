@@ -1,5 +1,5 @@
 /* Google fonts added */
-@import url('https://fonts.googleapis.com/css2?family=Amiri&family=IBM+Plex+Sans:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=IBM+Plex+Sans:wght@200&display=swap");
 
 /* Wildcard to override default styles by the browser */
 * {
@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #000000;
-    font-family: 'Amiri', sans-serif;
+    font-family: "Amiri", sans-serif;
 }
 
 /* Header */
@@ -36,7 +36,7 @@ header a {
 }
 
 h1 {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     text-transform: uppercase;
     color: inherit;
 }
@@ -87,17 +87,36 @@ main {
 }
 
 main #page-heading {
-    font-family: 'Amiri' sans-serif;
+    font-family: "Amiri" sans-serif;
+    font-style: oblique;
     font-size: 20px;
     margin: 5px;
     display: flex;
     justify-content: center;
 }
 
+#hp-img {
+    height: 150px;
+    width: 250px;
+    margin: 15px;
+}
+
+#hp-caption {
+    font-size: 10px;
+    font-style: oblique;
+    text-align: center;
+
+}
+
+#about-me {
+    display: inline-block;
+}
+
 /* footer */
 footer {
     background-color: #f3ccd5;
     height: 75px;
+    align-content: center;
 }
 
 #social-media {
@@ -115,8 +134,6 @@ footer {
 #social-media a {
     color: black;
 }
-
-
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 769px) {
@@ -146,5 +163,4 @@ footer {
         line-height: 50px;
         margin: 0 0.5rem;
     }
-
 }
