@@ -11,7 +11,6 @@
 /* General Styles */
 html body {
     min-height: 100vh;
-    max-width: 400px;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -85,7 +84,7 @@ main {
     background-color: #ebe7e0;
     /* Make main element take up surplus space */
     flex: 1 0 auto;
-    margin: 56px 0 0;
+    margin: 61px 0 0;
 }
 
 main #page-heading {
@@ -120,7 +119,7 @@ main #page-heading {
     font-size: small;
 }
 
-#Julie {
+#julie {
     width: 200px;
     height: 150px;
     margin: 15px 15px;
@@ -181,4 +180,33 @@ footer {
         line-height: 50px;
         margin: 0 0.5rem;
     }
+
+    /* Main content */
+    main {
+        /* Push content down to accomodate larger heading */
+        margin-top: 80.59px
+    }
+
+    main #page-heading {
+        font-size: 40px;
+    }
+
+    #hp-img {
+        width: 400px;
+        height: 300px;
+    }
+
+    #hp-caption {
+        font-size: 25px;
+    }
+
+    #about-me {
+        font-size: medium;
+    }
+
+    #julie {
+        width: 400px;
+        height: 300px;
+    }
+
 }
