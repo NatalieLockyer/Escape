@@ -98,6 +98,7 @@ main #page-heading {
     justify-content: center;
 }
 
+/* homepage image */
 #hp-img {
     height: 150px;
     width: 200px;
@@ -107,18 +108,21 @@ main #page-heading {
     margin-right: auto;
 }
 
+/* homepage caption */
 #hp-caption {
     font-size: 15px;
     font-style: oblique;
     text-align: center;
 }
 
+/* about me description */
 #about-me {
     display: block;
     text-align: center;
     font-size: small;
 }
 
+/* Image of Julie */
 #julie {
     width: 200px;
     height: 150px;
@@ -126,7 +130,13 @@ main #page-heading {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
 
+/* products page (2) */
+#products {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Amiri';
 }
 
 /* footer */
