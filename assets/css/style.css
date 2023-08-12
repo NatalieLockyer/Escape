@@ -135,16 +135,11 @@ main #page-heading {
 
 /* products page (2) */
 #products {
-    font-size: 40px;
+    font-size: 35px;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
-}
-
-#candle-jar-text {
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Amiri';
-    margin: 20px;
+    font-weight: 700;
+    margin: auto auto 35px;
 }
 
 #candle-jar-img {
@@ -156,11 +151,11 @@ main #page-heading {
     margin-right: auto;
 }
 
-#threewick {
-    font-size: 20px;
+#candle-jar-text {
+    font-size: 15px;
     text-align: center;
     font-family: 'Amiri';
-    margin: 20px;
+    margin: 20px auto 0;
 }
 
 #threewick-img {
@@ -172,8 +167,17 @@ main #page-heading {
     margin-right: auto;
 }
 
+#threewick {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Amiri';
+    margin: 20px;
+}
+
+
+
 .block-label {
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     justify-content: center;
 }
