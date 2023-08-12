@@ -120,6 +120,7 @@ main #page-heading {
     display: block;
     text-align: center;
     font-size: small;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 /* Image of Julie */
@@ -135,9 +136,37 @@ main #page-heading {
 /* products page (2) */
 #products {
     font-size: 40px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+}
+
+#candle-jar-text {
+    font-size: 20px;
     text-align: center;
     font-family: 'Amiri';
+    margin: 20px;
 }
+
+#candle-jar-img {
+    height: 150px;
+    width: 200px;
+    margin: 15px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-label {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#fragrance {
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
 
 /* footer */
 footer {
