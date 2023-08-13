@@ -206,6 +206,38 @@ main #page-heading {
     margin: 20px;
 }
 
+#melts-img {
+    height: 150px;
+    width: 200px;
+    margin: 15px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#melts {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Amiri';
+    margin: 20px;
+}
+
+#burner-img {
+    height: 150px;
+    width: 200px;
+    margin: 15px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#burner {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Amiri';
+    margin: 20px;
+}
+
 .block-label {
     font-size: 15px;
     display: flex;
