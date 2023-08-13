@@ -174,13 +174,6 @@ main #page-heading {
     margin: 20px;
 }
 
-#diffuser {
-    font-size: 15px;
-    text-align: center;
-    font-family: 'Amiri';
-    margin: 20px;
-}
-
 #diffuser-img {
     height: 150px;
     width: 200px;
@@ -188,6 +181,29 @@ main #page-heading {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#diffuser {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Amiri';
+    margin: 20px;
+}
+
+#selection-img {
+    height: 150px;
+    width: 200px;
+    margin: 15px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#selection {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Amiri';
+    margin: 20px;
 }
 
 .block-label {
