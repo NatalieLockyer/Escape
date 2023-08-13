@@ -330,4 +330,15 @@ footer {
         height: 300px;
     }
 
+    #product1 {
+        width: 50%;
+        float: left;
+    }
+
+    #product2 {
+        width: 50%;
+        float: right;
+    }
+
+
 }
