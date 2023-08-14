@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri&family=IBM+Plex+Sans:wght@200&display=swap");
 
 /* Wildcard to override default styles by the browser */
-* {
+* { 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -16,8 +16,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
-}
+ }
 
 /* Header */
 header {
@@ -122,6 +121,7 @@ main #page-heading {
     display: block;
     text-align: center;
     font-size: small;
+    font-weight: 600;
     font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -281,7 +281,7 @@ footer {
 }
 
 /* media query: tablets and larger (768px and up) */
-@media screen and (min-width: 769px) {
+    @media screen and (min-width: 769px) {
 
     /* Header */
     nav {
@@ -311,7 +311,7 @@ footer {
 
     /* Main content */
     main {
-        /* Push content down to accomodate larger heading */
+    /* Push content down to accomodate larger heading */
         margin-top: 80.59px;
         height: auto;
     }
@@ -330,7 +330,7 @@ footer {
     }
 
     #about-me {
-        font-size: medium;
+        font-weight: 600 ;    
     }
 
     #julie {
@@ -338,6 +338,7 @@ footer {
         height: 300px;
     }
 
+    /* Page 2 - Products  */
     #product1 {
         height: 359px;
         width: 50%;
@@ -360,24 +361,57 @@ footer {
         height: 359px;
         width: 50%;
         float: right;
-
     }
+
     #product5 {
         height: 359px;
         width: 50%;
         float: left;
-
     }
     
     #product6{
         height: 359px;
         width: 50%;
         float: right;
+    }   
+}
 
-    }    
+/* media query: tablet + (992px and up) */
+    @media screen and (min-width: 992px) {
+        
+    /* Main content */
+        #about-me {
+            width: 50%;
+            float: right;
+            margin-top: 50px;
+            margin-right: 5px;
+            }
+    
+            #julie {
+            float: left;
+            width: 400px;
+            margin-left: 20px; 
+            }
+        }
 
-    /* media query: dektop (1200px and up) */
-@media screen and (min-width: 1200px) {
+   /* media query: desktop (1200px and up) */
+ @media screen and (min-width: 1200px) {
+    
+    /* Main Content */
+    #about-me {
+        width: 50%;
+        float: right;
+        margin-top: 50px;
+        margin-right: 25px;
+    }
+
+    #julie {
+        float: left;
+        width: 500px;
+        margin-left: 25px;
+    }
+   
+    /* Page 2 - Products */
     #product1 {
         height: 359px;
         width: 33.33%;
@@ -400,22 +434,17 @@ footer {
         height: 359px;
         width: 33.33%;
         float: left;
-
     }
+
     #product5 {
         height: 359px;
         width: 33.33%;
         float: left;
-
     }
     
-    #product6{
+    #product6 {
         height: 359px;
         width: 33.33%;
         float: right;
-
     } 
-
-   }
-
 }
