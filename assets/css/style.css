@@ -9,13 +9,14 @@
 }
 
 /* General Styles */
-html body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+body {
     /* Generic project styles */
     color: #000000;
     font-family: "Amiri", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /* Header */
@@ -85,6 +86,7 @@ main {
     /* Make main element take up surplus space */
     flex: 1 0 auto;
     margin: 61px 0 0;
+    overflow: auto;
 }
 
 main #page-heading {
@@ -131,6 +133,12 @@ main #page-heading {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 /* products page (2) */
@@ -249,7 +257,6 @@ main #page-heading {
     margin: 10px auto 10px auto;
 }
 
-
 /* footer */
 footer {
     background-color: #f3ccd5;
@@ -305,7 +312,8 @@ footer {
     /* Main content */
     main {
         /* Push content down to accomodate larger heading */
-        margin-top: 80.59px
+        margin-top: 80.59px;
+        height: auto;
     }
 
     main #page-heading {
@@ -331,14 +339,83 @@ footer {
     }
 
     #product1 {
+        height: 359px;
         width: 50%;
         float: left;
     }
 
     #product2 {
+        height: 359px;
         width: 50%;
         float: right;
     }
 
+    #product3 {
+        height: 359px;
+        width: 50%;
+        float: left;
+    }
+
+    #product4 {
+        height: 359px;
+        width: 50%;
+        float: right;
+
+    }
+    #product5 {
+        height: 359px;
+        width: 50%;
+        float: left;
+
+    }
+    
+    #product6{
+        height: 359px;
+        width: 50%;
+        float: right;
+
+    }    
+
+    /* media query: dektop (1200px and up) */
+@media screen and (min-width: 1200px) {
+    #product1 {
+        height: 359px;
+        width: 33.33%;
+        float: left;
+    }
+
+    #product2 {
+        height: 359px;
+        width: 33.33%;
+        float: left;
+    }
+
+    #product3 {
+        height: 359px;
+        width: 33.33%;
+        float: right;
+    }
+
+    #product4 {
+        height: 359px;
+        width: 33.33%;
+        float: left;
+
+    }
+    #product5 {
+        height: 359px;
+        width: 33.33%;
+        float: left;
+
+    }
+    
+    #product6{
+        height: 359px;
+        width: 33.33%;
+        float: right;
+
+    } 
+
+   }
 
 }
