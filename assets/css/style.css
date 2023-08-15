@@ -83,10 +83,9 @@ nav {
 main {
     background-color: #ebe7e0;
     /* Make main element take up surplus space */
-    flex: 1 0 auto;
     margin: 61px 0 0;
     overflow: auto;
-}
+    }
 
 main #page-heading {
     font-family: "Amiri" sans-serif;
@@ -179,7 +178,7 @@ footer {
     font-size: 15px;
     text-align: center;
     font-family: 'Amiri';
-    margin: 20px;
+    margin: 20px auto 0;
 }
 
 #diffuser-img {
@@ -195,7 +194,7 @@ footer {
     font-size: 15px;
     text-align: center;
     font-family: 'Amiri';
-    margin: 20px;
+    margin: 20px auto 0;
 }
 
 #selection-img {
@@ -211,7 +210,7 @@ footer {
     font-size: 15px;
     text-align: center;
     font-family: 'Amiri';
-    margin: 20px;
+    margin: 20px auto 0;
 }
 
 #melts-img {
@@ -227,7 +226,7 @@ footer {
     font-size: 15px;
     text-align: center;
     font-family: 'Amiri';
-    margin: 20px;
+    margin: 20px auto 0;
 }
 
 #burner-img {
@@ -243,7 +242,7 @@ footer {
     font-size: 15px;
     text-align: center;
     font-family: 'Amiri';
-    margin: 20px;
+    margin: 20px auto 0;
 }
 
 .block-label {
@@ -313,7 +312,7 @@ footer {
     main {
     /* Push content down to accomodate larger heading */
         margin-top: 80.59px;
-        height: auto;
+        height: 100%;
     }
 
     main #page-heading {
@@ -402,13 +401,14 @@ footer {
         width: 50%;
         float: right;
         margin-top: 50px;
-        margin-right: 25px;
+        font-size: 17px;
     }
 
     #julie {
+        
         float: left;
-        width: 500px;
-        margin-left: 25px;
+        width: 550px;
+        
     }
    
     /* Page 2 - Products */
