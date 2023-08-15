@@ -359,13 +359,6 @@ footer {
     margin: auto;
 }
 
-#google-map {
-    overflow: auto;
-    height: 200px;
-    width: 150px;
-    
-}
-
 /* footer */
 footer {
     background-color: #f3ccd5;
