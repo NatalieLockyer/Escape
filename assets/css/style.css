@@ -524,8 +524,7 @@ footer {
         width: 50%;
         float: right;
     }   
-    /* page 4 */
-    
+       
 }
 
 /* media query: tablet + (992px and up) */
@@ -561,7 +560,30 @@ footer {
             }
         }
 
-           /* media query: desktop (1200px and up) */
+        /* page 4 */
+
+        #address {
+            width: 50%;
+            float: left;
+            font-size: 20px;
+        }
+
+        #google-map {
+            display: block;
+            margin: 40px;
+            width: 350px;
+            height: 200px;
+        }
+        
+        #recycle {
+            width: 100%;
+        }
+
+        
+
+
+
+        /* media query: desktop (1200px and up) */
  @media screen and (min-width: 1200px) {
     
     /* Main Content */
