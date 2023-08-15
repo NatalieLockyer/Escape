@@ -52,7 +52,7 @@ h1 {
 }
 
 .flow {
-    border-bottom: 1px solid inherit;
+    border-bottom: 1px;
 }
 
 /* Navbar styling and dropdown toggle */
@@ -83,12 +83,12 @@ nav {
 main {
     background-color: #ebe7e0;
     /* Make main element take up surplus space */
+    height: 100vh;
     margin: 61px 0 0;
     overflow: auto;
     }
 
 main #page-heading {
-    font-family: "Amiri" sans-serif;
     font-style: oblique;
     font-size: 45px;
     font-weight: 700;
