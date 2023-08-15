@@ -353,11 +353,21 @@ footer {
 }
 
 .form {
-    height: 150px;
-    width: 50%;
+    width: 300px;
+    height: 100px;
+    font-size: 15px;
     text-align: center;
-    margin: auto;
+    margin: auto;}
+
+#address {
+    text-align: center;
+    margin: 40px;
 }
+
+#google-map {
+    
+}
+
 
 /* footer */
 footer {
@@ -476,18 +486,8 @@ footer {
         width: 50%;
         float: right;
     }   
-
-    #address {
-        width: 40%;
-        float: left;
-        text-align: center;
-        margin: 64px auto;
-    }
-    #google-map {
-        overflow: auto;
-        width: 40%;
-        height: 250px;
-        margin: 32px auto;
+    /* page 4 */
+    
 }
 
 /* media query: tablet + (992px and up) */
