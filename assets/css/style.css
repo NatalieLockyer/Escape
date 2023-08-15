@@ -142,7 +142,7 @@ footer {
 
 /* products page (2) */
 #products {
-    font-size: 35px;
+    font-size: 40px;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     font-weight: 700;
@@ -466,14 +466,29 @@ footer {
             margin-right: 5px;
             }
     
-            #julie {
+        #julie {
             float: left;
             width: 400px;
             margin-left: 20px; 
             }
+
+        #w1 {
+            width: 50%;
+            float: left;
+        }    
+        
+        #w2{
+            width: 50%;
+            float: right;
         }
 
-   /* media query: desktop (1200px and up) */
+        #w3 {
+            width: 50%;
+            margin: 0 auto;
+            }
+        }
+
+           /* media query: desktop (1200px and up) */
  @media screen and (min-width: 1200px) {
     
     /* Main Content */
@@ -527,4 +542,22 @@ footer {
         width: 33.33%;
         float: right;
     } 
+
+    /* Page 3 workshop */
+
+    #w1 {
+        width: 33.33%;
+        float: left;
+    }    
+    
+    #w2{
+        width: 33.33%;
+        float: left;
+    }
+
+    #w3 {
+        width: 33.33%;
+        float: right;
+        
+        }
 }
