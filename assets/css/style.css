@@ -336,6 +336,36 @@ footer {
     margin-right: auto;
 }
 
+/* Page 4 Contact Us */
+#contactus {
+    font-size: 40px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: auto auto 35px;
+    }
+
+#pg4text {
+    font-size:20px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.form {
+    height: 150px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+#google-map {
+    overflow: auto;
+    height: 200px;
+    width: 150px;
+    
+}
+
 /* footer */
 footer {
     background-color: #f3ccd5;
@@ -453,6 +483,18 @@ footer {
         width: 50%;
         float: right;
     }   
+
+    #address {
+        width: 40%;
+        float: left;
+        text-align: center;
+        margin: 64px auto;
+    }
+    #google-map {
+        overflow: auto;
+        width: 40%;
+        height: 250px;
+        margin: 32px auto;
 }
 
 /* media query: tablet + (992px and up) */
