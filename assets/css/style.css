@@ -90,7 +90,7 @@ main {
 main #page-heading {
     font-family: "Amiri" sans-serif;
     font-style: oblique;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 700;
     text-align: center;
     margin: 5px;
@@ -255,6 +255,70 @@ footer {
     display: block;
     margin: 10px auto 10px auto;
 }
+
+/* Page 3 Workshops */
+#workshops {
+    font-size: 40px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: auto auto 35px;
+    }
+
+#question {
+    font-size:25px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+}
+
+#pg3text {
+    font-size:20px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#workshopimg1 {
+    height: 300px;
+    width: 350px;
+    margin: 30px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#workshop1course{
+    font-size:20px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px;
+}
+
+.workshoptext {
+    font-size:12px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px;
+}
+
+#workshop2course{
+    font-size:20px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px;
+}
+#workshopimg2 {
+    height: 300px;
+    width: 350px;
+    margin: 30px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* footer */
 footer {
