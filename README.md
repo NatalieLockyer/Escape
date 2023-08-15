@@ -6,19 +6,34 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 
 Features
 
-- Navigation Bar (Small Devices 768px and below)
-  
-  For our smaller devices the company name is situated to the left of the screen and when the name is selected it will return the user to     the homepage. 
-  To the right of the screen, there is a stackable (burger) menu, when selected a drop-down list will appear and contains Our Products,       Workshops and Contact Us.
+- Navigation / Header
 
-![image](https://github.com/NatalieLockyer/Escape/assets/137916682/9d068dce-d5ab-4425-84d2-b4ec09f3998b)
+The navigation bar is featured at the top of the page. In the top left corner is the shorthand name of the company. Once clicked on any of the website pages, this will return the user to the top of the homepage. 
+The other navigation links are in the top right corner of the page. For our smaller devices (768px and below) the user will see a stackable menu (burger menu) in the right hand corner of the page. When the user clicks on this, a drop down menu will appear listing, Homepage, Our Products, Workshops and a Contact Us page. Each link will navigate the user to the correct page. 
 
-  - Navigation Bar (larger devices from 768px and up)
-    
-  For our larger devices the company name is situated towards the left. As before, when the name is selected it will return the user to     the homepage. 
-  As there is more space on this device, the menu list will now be displayed horizontal on the front page as opposed to the menu option.    Each of the headings will be placed next to each other and have a hyperlink to that specific page. 
+![image](https://github.com/NatalieLockyer/Escape/assets/137916682/47fd6eb4-458e-48b5-baa8-0e3bdc898edb)
 
-![image](https://github.com/NatalieLockyer/Escape/assets/137916682/d1a7d453-aec9-41a0-ab24-22c161461048)
+For our larger devices (768px and above) the user will see the navigation menu display horizontally at the top of the page.
+
+![image](https://github.com/NatalieLockyer/Escape/assets/137916682/a8eb42cb-b88b-4bb4-8973-872f5fd16cc8)
+
+The navigation has been styled with bakground colour #f3ccd5, the font-family is Amiri and font colour is #000000 which all contrast together nicely. The navigation clearly explains to the user the shorthand name of the company and the different sections within the website.
+
+Main Section
+
+The main section is seperated into three parts.  
+
+  - The first section contains a heading with the name of the company. This is clear and is in a slightly different style to the              navigation bar as to stand out to the user. The font-style is in oblique and has a font-weight of 700.
+
+  - The second section contains and image and a caption providing clear information about what the compnany does and where they source        their materials. The image is to entise the user in and want to look further.
+
+  - The third section contains an 'about me' and image. The about me gives potential customers an insight as to how the company started,        the passion that has gone into creating the company and hopes to build strong connections with the users.
+
+The main section has been styled with the same font-family, all have been centerally aligned. 
+      
 
 
-  
+
+
+
+
