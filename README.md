@@ -47,16 +47,11 @@ This section is valuble to the user as they can see what products are available 
 
 - Workshop Page
 
-The workshop page contains images and descpitions of the interactive courses that are available to the user. Each course details the date, approx length of the course, where is it located, the maximum number of people that can attend and the price of the course. This is all important information for the user.
+The workshop page contains images and descpitions of the interactive courses that are available to the user. Each course details the date, approx length of the course, where is it located, the maximum number of people that can attend and the price of the course. This is all important information for the user. Each detail has an icon at the beginning, this provides an easy and effective way to add a visual emphasis for each item. 
 
+- Contact Page
 
-
-
-  
-      
-
-
-
-
-
+The contact page is an interactive way were the user can make contact with the team. Whether that is for further infomation or to request a free brochure and discount code. The user is required to add their first name, last name and email address, if anything is missing the form will not send.
+Here there is also a contact address, number and google map to show the user where the headquarters for the company is. 
+There are also some icons and descriptions of how the company complies with recycling / animal friendly procucts and reusing products,  which in our current climate of working together to bring the levels of global warning down, is important for the user to see. 
 
