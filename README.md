@@ -49,6 +49,8 @@ This section is valuble to the user as they can see what products are available 
 
 The workshop page contains images and descpitions of the interactive courses that are available to the user. Each course details the date, approx length of the course, where is it located, the maximum number of people that can attend and the price of the course. This is all important information for the user. Each detail has an icon at the beginning, this provides an easy and effective way to add a visual emphasis for each item. 
 
+![image](https://github.com/NatalieLockyer/Escape/assets/137916682/aaa104e1-4424-463c-98a6-5795bbe94235)
+
 - Contact Page
 
 The contact page is an interactive way were the user can make contact with the team. Whether that is for further infomation or to request a free brochure and discount code. The user is required to add their first name, last name and email address, if anything is missing the form will not send.
