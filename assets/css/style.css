@@ -251,7 +251,7 @@ footer {
     justify-content: center;
 }
 
-#fragrance {
+.fragrance {
     display: block;
     margin: 10px auto 10px auto;
 }
@@ -353,20 +353,22 @@ footer {
 }
 
 .form {
+    height: 320px;
     width: 300px;
-    height: 100px;
     font-size: 15px;
     text-align: center;
     margin: auto;}
 
 #address {
+    width: 50%;
+    float: left;
     text-align: center;
-    margin: 40px; 
+    
 }
 
 #google-map {
     display: block;
-    margin: auto ;
+    
 }
 
 #recycle {
