@@ -113,6 +113,7 @@ main #page-heading {
     font-size: 15px;
     font-style: oblique;
     text-align: center;
+    font-weight: bold;    
 }
 
 /* about me description */
@@ -269,6 +270,7 @@ footer {
     font-size:25px;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
+    font-weight: bold;
 }
 
 #pg3text {
@@ -289,6 +291,7 @@ footer {
 
 #workshop1course{
     font-size:20px;
+    font-weight: bold;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
@@ -305,6 +308,7 @@ footer {
 
 #workshop2course{
     font-size:20px;
+    font-weight: bold;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
@@ -321,6 +325,7 @@ footer {
 
 #workshop3course{
     font-size:20px;
+    font-weight: bold;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
@@ -360,22 +365,22 @@ footer {
     margin: auto;}
 
 #address {
-    width: 50%;
-    float: left;
+    display: block;
+    margin: 20px;
     text-align: center;
-    
-}
+    }
 
 #google-map {
-    display: block;
-    
+    width: 204px;
+    height: 204px;
+    align-items: center;
 }
 
 #recycle {
+    margin: 30px auto 25px auto;
     display: flex;
     justify-content:space-evenly;
-    margin: 30px auto 25px auto;
-}
+ }
 
 #recycle1 {
     font-size: 10px;
@@ -404,10 +409,6 @@ footer {
     width: 20%;
     float: left
 }
-
-
-
-
 
 /* footer */
 footer {
@@ -526,11 +527,10 @@ footer {
         width: 50%;
         float: right;
     }   
-       
 }
 
 /* media query: tablet + (992px and up) */
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width:992px) {
         
     /* Main content */
         #about-me {
