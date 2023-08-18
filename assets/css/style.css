@@ -127,8 +127,8 @@ main #page-heading {
 
 /* Image of Julie */
 #julie {
-    width: 200px;
     height: 150px;
+    width: 200px;
     margin: 15px 15px;
     display: block;
     margin-left: auto;
@@ -339,9 +339,13 @@ footer {
 }
 
 /* media query: tablets and larger (768px and up) */
-@media (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
     /* Header */
+    #menu {
+        display: flex;
+    }
+
     nav {
         display: block;
         position: relative;
@@ -349,22 +353,8 @@ footer {
         padding-right: 1rem;
     }
 
-    #menu {
-        display: flex;
-    }
-
-    #menu>li {
-        padding-left: 1rem;
-    }
-
     .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 280%;
-        line-height: 50px;
-        margin: 0 0.5rem;
+        font-size: 1.5rem;
     }
 
     /* Main content */
@@ -375,7 +365,7 @@ footer {
     }
 
     main #page-heading {
-        font-size: 40px;
+        font-size: 2.8rem;
     }
 
     #hp-img {
@@ -384,10 +374,11 @@ footer {
     }
 
     #hp-caption {
-        font-size: 25px;
+        font-size: 2.2rem;
     }
 
     #about-me {
+        font-size: 1.6rem;
         font-weight: 600;
     }
 
@@ -435,10 +426,37 @@ footer {
 }
 
 /* media query: Desktop and large screens (992px and up) */
-@media (min-width:992px) and (max-width:1300px) {
+@media screen and (min-width:992px) and (max-width:1300px) {
 
     /* Main content */
+
+    #menu {
+        display: flex;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    main #page-heading {
+        font-size: 3rem;
+    }
+
+    #hp-img {
+        width: 500px;
+        height: 400px;
+    }
+
+    #hp-caption {
+        font-size: 2.8rem;
+    }
+
     #about-me {
+        font-size: 1.8rem;
+        font-weight: 600;
         width: 50%;
         float: right;
         margin-top: 50px;
@@ -446,8 +464,10 @@ footer {
     }
 
     #julie {
+        width: 500px;
+        height: 400px;
         float: left;
-        width: 400px;
+        margin-top: 175px;
         margin-left: 20px;
     }
 
@@ -491,72 +511,78 @@ footer {
 @media screen and (min-width: 1301px) {
 
     /* Main Content */
+
+    #menu {
+        display: flex;
+    }
+
+    main #page-heading {
+        font-size: 4rem;
+    }
+
+    #hp-img {
+        width: 500px;
+        height: 400px;
+    }
+
+    #hp-caption {
+        font-size: 3rem;
+    }
+
     #about-me {
-        width: 50%;
-        float: right;
-        margin-top: 50px;
-        font-size: 17px;
+
+        /* Page 2 - Products */
+        #product1 {
+            height: 359px;
+            width: 33.33%;
+            float: left;
+        }
+
+        #product2 {
+            height: 359px;
+            width: 33.33%;
+            float: left;
+        }
+
+        #product3 {
+            height: 359px;
+            width: 33.33%;
+            float: right;
+        }
+
+        #product4 {
+            height: 359px;
+            width: 33.33%;
+            float: left;
+        }
+
+        #product5 {
+            height: 359px;
+            width: 33.33%;
+            float: left;
+        }
+
+        #product6 {
+            height: 359px;
+            width: 33.33%;
+            float: right;
+        }
+
+        /* Page 3 workshop */
+
+        #w1 {
+            width: 33.33%;
+            float: left;
+        }
+
+        #w2 {
+            width: 33.33%;
+            float: left;
+        }
+
+        #w3 {
+            width: 33.33%;
+            float: right;
+
+        }
     }
-
-    #julie {
-
-        float: left;
-        width: 550px;
-
-    }
-
-    /* Page 2 - Products */
-    #product1 {
-        height: 359px;
-        width: 33.33%;
-        float: left;
-    }
-
-    #product2 {
-        height: 359px;
-        width: 33.33%;
-        float: left;
-    }
-
-    #product3 {
-        height: 359px;
-        width: 33.33%;
-        float: right;
-    }
-
-    #product4 {
-        height: 359px;
-        width: 33.33%;
-        float: left;
-    }
-
-    #product5 {
-        height: 359px;
-        width: 33.33%;
-        float: left;
-    }
-
-    #product6 {
-        height: 359px;
-        width: 33.33%;
-        float: right;
-    }
-
-    /* Page 3 workshop */
-
-    #w1 {
-        width: 33.33%;
-        float: left;
-    }
-
-    #w2 {
-        width: 33.33%;
-        float: left;
-    }
-
-    #w3 {
-        width: 33.33%;
-        float: right;
-
-    }
-}
