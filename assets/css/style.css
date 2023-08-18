@@ -90,7 +90,7 @@ main {
 
 main #page-heading {
     font-style: oblique;
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
     margin: 5px;
@@ -110,7 +110,7 @@ main #page-heading {
 
 /* homepage caption */
 #hp-caption {
-    font-size: 15px;
+    font-size: 1.5rem;
     font-style: oblique;
     text-align: center;
     font-weight: bold;
@@ -120,7 +120,7 @@ main #page-heading {
 #about-me {
     display: block;
     text-align: center;
-    font-size: small;
+    font-size: 1rem;
     font-weight: 600;
     font-family: "IBM Plex Sans", sans-serif;
 }
@@ -143,14 +143,14 @@ footer {
 
 /* products page (2) */
 #products {
-    font-size: 40px;
+    font-size: 3rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     font-weight: 700;
     margin: auto auto 35px;
 }
 
-#candle-jar-img {
+.product-img {
     height: 150px;
     width: 200px;
     margin: 15px 15px;
@@ -166,29 +166,11 @@ footer {
     margin: 20px auto 0;
 }
 
-#threewick-img {
-    height: 150px;
-    width: 200px;
-    margin: 15px 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #threewick {
     font-size: 15px;
     text-align: center;
     font-family: 'Amiri';
     margin: 20px auto 0;
-}
-
-#diffuser-img {
-    height: 150px;
-    width: 200px;
-    margin: 15px 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #diffuser {
@@ -198,15 +180,6 @@ footer {
     margin: 20px auto 0;
 }
 
-#selection-img {
-    height: 150px;
-    width: 200px;
-    margin: 15px 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #selection {
     font-size: 15px;
     text-align: center;
@@ -214,29 +187,11 @@ footer {
     margin: 20px auto 0;
 }
 
-#melts-img {
-    height: 150px;
-    width: 200px;
-    margin: 15px 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #melts {
     font-size: 15px;
     text-align: center;
     font-family: 'Amiri';
     margin: 20px auto 0;
-}
-
-#burner-img {
-    height: 150px;
-    width: 200px;
-    margin: 15px 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #burner {
@@ -583,9 +538,6 @@ footer {
 #recycle {
     width: 100%;
 }
-
-
-
 
 
 /* media query: Extra large screens and TV (1301px and up) */
