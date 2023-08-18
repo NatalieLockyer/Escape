@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri&family=IBM+Plex+Sans:wght@200&display=swap");
 
 /* Wildcard to override default styles by the browser */
-* { 
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
- }
+}
 
 /* Header */
 header {
@@ -86,7 +86,7 @@ main {
     height: 100vh;
     margin: 61px 0 0;
     overflow: auto;
-    }
+}
 
 main #page-heading {
     font-style: oblique;
@@ -113,7 +113,7 @@ main #page-heading {
     font-size: 15px;
     font-style: oblique;
     text-align: center;
-    font-weight: bold;    
+    font-weight: bold;
 }
 
 /* about me description */
@@ -264,17 +264,17 @@ footer {
     text-align: center;
     font-weight: bold;
     margin: auto auto 35px;
-    }
+}
 
 #question {
-    font-size:25px;
+    font-size: 25px;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     font-weight: bold;
 }
 
 #pg3text {
-    font-size:20px;
+    font-size: 20px;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     margin: 20px;
@@ -289,8 +289,8 @@ footer {
     margin-right: auto;
 }
 
-#workshop1course{
-    font-size:20px;
+#workshop1course {
+    font-size: 20px;
     font-weight: bold;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
@@ -299,21 +299,22 @@ footer {
 }
 
 .workshoptext {
-    font-size:12px;
+    font-size: 12px;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
     margin: 20px;
 }
 
-#workshop2course{
-    font-size:20px;
+#workshop2course {
+    font-size: 20px;
     font-weight: bold;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
     margin: 20px;
 }
+
 #workshopimg2 {
     height: 300px;
     width: 350px;
@@ -323,8 +324,8 @@ footer {
     margin-right: auto;
 }
 
-#workshop3course{
-    font-size:20px;
+#workshop3course {
+    font-size: 20px;
     font-weight: bold;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
@@ -348,10 +349,10 @@ footer {
     text-align: center;
     font-weight: bold;
     margin: auto auto 35px;
-    }
+}
 
 #pg4text {
-    font-size:20px;
+    font-size: 20px;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     margin: 20px;
@@ -362,13 +363,15 @@ footer {
     width: 300px;
     font-size: 15px;
     text-align: center;
-    margin: auto;}
+    margin: auto;
+}
 
 #address {
     display: block;
     margin: 20px;
+    width: 100%;
     text-align: center;
-    }
+}
 
 #google-map {
     width: 204px;
@@ -379,8 +382,8 @@ footer {
 #recycle {
     margin: 30px auto 25px auto;
     display: flex;
-    justify-content:space-evenly;
- }
+    justify-content: space-evenly;
+}
 
 #recycle1 {
     font-size: 10px;
@@ -434,7 +437,7 @@ footer {
 }
 
 /* media query: tablets and larger (768px and up) */
-    @media screen and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
 
     /* Header */
     nav {
@@ -464,7 +467,7 @@ footer {
 
     /* Main content */
     main {
-    /* Push content down to accomodate larger heading */
+        /* Push content down to accomodate larger heading */
         margin-top: 80.59px;
         height: 100%;
     }
@@ -483,7 +486,7 @@ footer {
     }
 
     #about-me {
-        font-weight: 600 ;    
+        font-weight: 600;
     }
 
     #julie {
@@ -521,73 +524,73 @@ footer {
         width: 50%;
         float: left;
     }
-    
-    #product6{
+
+    #product6 {
         height: 359px;
         width: 50%;
         float: right;
-    }   
+    }
 }
 
-/* media query: tablet + (992px and up) */
-    @media screen and (min-width:992px) {
-        
+/* media query: Desktop and large screens (992px and up) */
+@media (min-width:992px) and (max-width:1300px) {
+
     /* Main content */
-        #about-me {
-            width: 50%;
-            float: right;
-            margin-top: 50px;
-            margin-right: 5px;
-            }
-    
-        #julie {
-            float: left;
-            width: 400px;
-            margin-left: 20px; 
-            }
+    #about-me {
+        width: 50%;
+        float: right;
+        margin-top: 50px;
+        margin-right: 5px;
+    }
 
-        #w1 {
-            width: 50%;
-            float: left;
-        }    
-        
-        #w2{
-            width: 50%;
-            float: right;
-        }
+    #julie {
+        float: left;
+        width: 400px;
+        margin-left: 20px;
+    }
 
-        #w3 {
-            width: 50%;
-            margin: 0 auto;
-            }
-        }
+    #w1 {
+        width: 50%;
+        float: left;
+    }
 
-        /* page 4 */
+    #w2 {
+        width: 50%;
+        float: right;
+    }
 
-        #address {
-            width: 50%;
-            float: left;
-            font-size: 20px;
-        }
+    #w3 {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
 
-        #google-map {
-            display: block;
-            margin: 40px;
-            width: 350px;
-            height: 200px;
-        }
-        
-        #recycle {
-            width: 100%;
-        }
+/* page 4 */
 
-        
+#address {
+    width: 50%;
+    float: left;
+    font-size: 20px;
+}
+
+#google-map {
+    display: block;
+    margin: 40px;
+    width: 350px;
+    height: 200px;
+}
+
+#recycle {
+    width: 100%;
+}
 
 
 
-        /* media query: desktop (1200px and up) */
- @media screen and (min-width: 1200px) {
-    
+
+
+/* media query: Extra large screens and TV (1301px and up) */
+@media screen and (min-width: 1301px) {
+
     /* Main Content */
     #about-me {
         width: 50%;
@@ -597,12 +600,12 @@ footer {
     }
 
     #julie {
-        
+
         float: left;
         width: 550px;
-        
+
     }
-   
+
     /* Page 2 - Products */
     #product1 {
         height: 359px;
@@ -633,21 +636,21 @@ footer {
         width: 33.33%;
         float: left;
     }
-    
+
     #product6 {
         height: 359px;
         width: 33.33%;
         float: right;
-    } 
+    }
 
     /* Page 3 workshop */
 
     #w1 {
         width: 33.33%;
         float: left;
-    }    
-    
-    #w2{
+    }
+
+    #w2 {
         width: 33.33%;
         float: left;
     }
@@ -655,6 +658,6 @@ footer {
     #w3 {
         width: 33.33%;
         float: right;
-        
-        }
+
+    }
 }
