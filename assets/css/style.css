@@ -160,14 +160,14 @@ footer {
 }
 
 .product-text {
-    font-size: 15px;
+    font-size: 1rem;
     text-align: center;
     font-family: 'Amiri';
     margin: 20px auto 0;
 }
 
 .block-label {
-    font-size: 15px;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
 }
@@ -179,7 +179,7 @@ footer {
 
 /* Page 3 Workshops */
 #workshops {
-    font-size: 40px;
+    font-size: 3rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     font-weight: bold;
@@ -187,14 +187,14 @@ footer {
 }
 
 #question {
-    font-size: 25px;
+    font-size: 1.5rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     font-weight: bold;
 }
 
 #pg3text {
-    font-size: 20px;
+    font-size:1.2rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     margin: 20px;
