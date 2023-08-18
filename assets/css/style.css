@@ -159,42 +159,7 @@ footer {
     margin-right: auto;
 }
 
-#candle-jar-text {
-    font-size: 15px;
-    text-align: center;
-    font-family: 'Amiri';
-    margin: 20px auto 0;
-}
-
-#threewick {
-    font-size: 15px;
-    text-align: center;
-    font-family: 'Amiri';
-    margin: 20px auto 0;
-}
-
-#diffuser {
-    font-size: 15px;
-    text-align: center;
-    font-family: 'Amiri';
-    margin: 20px auto 0;
-}
-
-#selection {
-    font-size: 15px;
-    text-align: center;
-    font-family: 'Amiri';
-    margin: 20px auto 0;
-}
-
-#melts {
-    font-size: 15px;
-    text-align: center;
-    font-family: 'Amiri';
-    margin: 20px auto 0;
-}
-
-#burner {
+.product-text {
     font-size: 15px;
     text-align: center;
     font-family: 'Amiri';
