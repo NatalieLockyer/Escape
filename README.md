@@ -43,6 +43,22 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 *	An eye-catching display that makes the client want to return.
 *	Allow clients to contact the company if they want any other information.
 
+### First time visitor goals 
+
+*	As a new visitor, I want to easily understand the main purpose of the site and what it has to offer.
+*	I want to be able to navigate around with ease, using shortcuts if available.
+*	I want to know what products are available and what workshops are on offer.
+*	I also want to be able to find their social media links.
+
+### As a returning visitor
+
+*	I want to follow for new products or workshops that are taking place.
+*	I want to be able to contact the company with any questions or orders I may have.
+
+### As a frequent visitor
+
+*	I want to be able to recommend this site to friends and family, or other users.
+*	I want to see if there are any offers or new products. 
 
 
 ## Features
