@@ -15,6 +15,7 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 * Our Products Page
 * Workshop Page
 * Contact Us Page
+* Future Features
 * Accessibility
 * Colour Scheme
 * Typography
@@ -61,7 +62,7 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 *	I want to see if there are any offers or new products. 
 
 
-## Features
+## Design Features
 
 ### - Navigation / Header
 
@@ -113,4 +114,12 @@ The workshop page contains images and descpitions of the interactive courses tha
 The contact page is an interactive way were the user can make contact with the team. Whether that is for further infomation or to request a free brochure and discount code. The user is required to add their first name, last name and email address, if anything is missing the form will not send.
 Here there is also a contact address, number and google map to show the user where the headquarters for the company is. 
 There are also some icons and descriptions of how the company complies with recycling / animal friendly procucts and reusing products,  which in our current climate of working together to bring the levels of global warning down, is important for the user to see. 
+
+
+### Future Features
+
+* A slideshow of images on the homepage to showcase what we have to offer, to enhance the expirence for the user and increase interest in the page.
+* Add reviews from previous clients
+
+### Accessibility
 
