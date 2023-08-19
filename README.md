@@ -154,3 +154,8 @@ I used Google Fonts for my font style.
 For the Main heading I used 'Amiri'
 For all other text I used 'IBM Plex Sands'
 
+### Wireframes
+
+For my wireframes I used Balsamiq. This was the first time I has used this programme, and after speaking with my mentor, I realise now that the detail I put into it was to much. I have learnt from this and will reduce how much I include next time, I will also add other size devices to test out my ideas. 
+
+![Alt text](image-12.png)
