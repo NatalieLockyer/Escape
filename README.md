@@ -4,6 +4,47 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 
 ![image](https://github.com/NatalieLockyer/Escape/assets/137916682/5c93fa91-b9fc-48d8-97fe-4f3989cf0be7)
 
+## Contents
+
+### User Experience
+
+### Design Features
+* Header and Navigation
+* Main Section Homepage
+* Footer
+* Our Products Page
+* Workshop Page
+* Contact Us Page
+* Accessibility
+* Colour Scheme
+* Typography
+* Wireframes
+
+### Technologies Used
+* Languages Used
+* Frameworks Used
+
+### Deployment and Local Deployment
+* Deployment 
+* Local Deployment
+
+### Testing
+* W3C Validator
+* Bugs
+
+### Credits 
+
+## User Experience (UX)
+
+### Client Goals
+
+* For their users to be able to view the site on a range of different size devices.
+*	Potential users to know exactly what the website is about and can navigate easily through the website. 
+*	An eye-catching display that makes the client want to return.
+*	Allow clients to contact the company if they want any other information.
+
+
+
 ## Features
 
 ### - Navigation / Header

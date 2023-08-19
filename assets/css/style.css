@@ -1,6 +1,7 @@
 /* Google fonts added */
 @import url("https://fonts.googleapis.com/css2?family=Amiri&family=IBM+Plex+Sans:wght@200&display=swap");
 
+/* Colour Styles */
 :root {
     --pink: #f3ccd5;
     --beige: #ebe7e0;
@@ -343,7 +344,7 @@ footer {
 }
 
 /* media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
     /* Header */
     #menu {
