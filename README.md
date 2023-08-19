@@ -115,11 +115,3 @@ The contact page is an interactive way were the user can make contact with the t
 Here there is also a contact address, number and google map to show the user where the headquarters for the company is. 
 There are also some icons and descriptions of how the company complies with recycling / animal friendly procucts and reusing products,  which in our current climate of working together to bring the levels of global warning down, is important for the user to see. 
 
-
-### Future Features
-
-* A slideshow of images on the homepage to showcase what we have to offer, to enhance the expirence for the user and increase interest in the page.
-* Add reviews from previous clients
-
-### Accessibility
-
