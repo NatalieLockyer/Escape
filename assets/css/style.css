@@ -344,6 +344,11 @@ footer {
     /* Header */
     #menu {
         display: flex;
+
+    }
+
+    #menu>li {
+        padding-left: 1rem;
     }
 
     nav {
