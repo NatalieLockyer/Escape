@@ -393,6 +393,7 @@ footer {
 
     /* Page 2 Products - These are in ID's as the float is different  */
     #product1 {
+
         height: 359px;
         width: 50%;
         float: left;
@@ -430,7 +431,7 @@ footer {
 
 
     /* Page 3 Workshop */
-
+    /* These are IDs as they have different content */
     #w1 {
         width: 50%;
         float: left;
@@ -441,12 +442,17 @@ footer {
         float: right;
     }
 
+    #w3 {
+        width: 50%;
+        margin: 0 auto;
+    }
+
 }
 
 /* media query: Desktop and large screens (992px and up) */
 @media screen and (min-width:992px) and (max-width:1300px) {
 
-    /* Main content */
+    /* heading */
 
     #menu {
         display: flex;
@@ -462,6 +468,14 @@ footer {
     #menu>li {
         padding-left: 1rem;
         font-size: 1.5rem;
+    }
+
+    /* Main content */
+
+    main {
+        /* Push content down to accomodate larger heading */
+        margin-top: 82px;
+        height: 100%;
     }
 
     main #page-heading {
@@ -488,10 +502,50 @@ footer {
 
     #julie {
         height: 400px;
+        width: 400px;
         float: left;
-        margin-top: 50px;
-        margin-left: 20px;
+        margin: 100px 0 auto 20px;
     }
+
+    /* Page 2 Products */
+
+    #product1 {
+        height: 359px;
+        width: 33.33%;
+        float: left;
+    }
+
+    #product2 {
+        height: 359px;
+        width: 33.33%;
+        float: left;
+    }
+
+    #product3 {
+        height: 359px;
+        width: 33.33%;
+        float: right;
+    }
+
+    #product4 {
+        height: 359px;
+        width: 33.33%;
+        float: left;
+    }
+
+    #product5 {
+        height: 359px;
+        width: 33.33%;
+        float: left;
+    }
+
+    #product6 {
+        height: 359px;
+        width: 33.33%;
+        float: right;
+    }
+
+    /* Page 3 Workshop */
 
     #w1 {
         width: 50%;
@@ -551,44 +605,6 @@ footer {
         font-size: 3rem;
     }
 
-    #about-me
-
-    /* Page 2 - Products */
-    #product1 {
-        height: 359px;
-        width: 33.33%;
-        float: left;
-    }
-
-    #product2 {
-        height: 359px;
-        width: 33.33%;
-        float: left;
-    }
-
-    #product3 {
-        height: 359px;
-        width: 33.33%;
-        float: right;
-    }
-
-    #product4 {
-        height: 359px;
-        width: 33.33%;
-        float: left;
-    }
-
-    #product5 {
-        height: 359px;
-        width: 33.33%;
-        float: left;
-    }
-
-    #product6 {
-        height: 359px;
-        width: 33.33%;
-        float: right;
-    }
 
     /* Page 3 workshop */
 
