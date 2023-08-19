@@ -123,3 +123,17 @@ There are also some icons and descriptions of how the company complies with recy
 * Add reviews from previous clients
 
 ### Accessibility
+
+I have run the webpage through Lighthouse on Dev tools, these were the results.
+
+* Homepage
+![Alt text](image-2.png)
+
+* Our Products
+![Alt text](image-3.png)
+
+* Workshops 
+![Alt text](image-4.png)
+
+* Contact Us
+![Alt text](image-5.png)
