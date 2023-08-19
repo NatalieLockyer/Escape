@@ -64,6 +64,8 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 
 ## Design Features
 
+The website is made up of 4 pages, the Homepage, Our Products, Workshops and a Contact Us page.
+
 ### - Navigation / Header
 
 Featured of all four pages, The navigation bar is situated at the top of the page. In the top left corner is the shorthand name of the company. Once clicked on any of the website pages, this will return the user to the top of the homepage. 
