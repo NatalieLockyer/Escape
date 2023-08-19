@@ -124,16 +124,33 @@ There are also some icons and descriptions of how the company complies with recy
 
 ### Accessibility
 
-I have run the webpage through Lighthouse on Dev tools, these were the results.
+I have run the webpage through Lighthouse on developer tools, these were the results.
 
 * Homepage
+
 ![Alt text](image-2.png)
 
 * Our Products
+
 ![Alt text](image-3.png)
 
 * Workshops 
+
 ![Alt text](image-4.png)
 
 * Contact Us
+
 ![Alt text](image-5.png)
+
+### Colour Scheme
+
+These are the colours I chose for the theme, I think the pink and beige compliment each other whilst the black text used for the font stands out.
+
+![Alt text](image-7.png)
+
+### Typography 
+
+I used Google Fonts for my font style. 
+For the Main heading I used 'Amiri'
+For all other text I used 'IBM Plex Sands'
+
