@@ -90,7 +90,7 @@ main {
 
 main #page-heading {
     font-style: oblique;
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 700;
     text-align: center;
     margin: 5px;
@@ -135,13 +135,33 @@ main #page-heading {
     margin-right: auto;
 }
 
+/* Footer */
 footer {
+    background-color: #f3ccd5;
+    height: 75px;
+    align-content: center;
     bottom: 0;
     left: 0;
     width: 100%;
 }
 
-/* products page (2) */
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media li {
+    font-size: 20px;
+}
+
+#social-media a {
+    color: black;
+}
+
+/* Page 2 products page */
 #products {
     font-size: 3rem;
     font-family: "IBM Plex Sans", sans-serif;
@@ -287,6 +307,7 @@ footer {
     justify-content: space-evenly;
 }
 
+/* These are in ID's as icon is different */
 #recycle1 {
     font-size: 0.8rem;
     text-align: center;
@@ -315,40 +336,17 @@ footer {
     float: left
 }
 
-/* footer */
-footer {
-    background-color: #f3ccd5;
-    height: 75px;
-    align-content: center;
-}
-
-#social-media {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-media li {
-    font-size: 20px;
-}
-
-#social-media a {
-    color: black;
-}
-
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     /* Header */
     #menu {
         display: flex;
-
     }
 
     #menu>li {
         padding-left: 1rem;
+        font-size: 1.2rem;
     }
 
     nav {
@@ -371,7 +369,7 @@ footer {
     }
 
     main #page-heading {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
 
     #hp-img {
@@ -393,7 +391,7 @@ footer {
         height: 300px;
     }
 
-    /* Page 2 - Products  */
+    /* Page 2 Products - These are in ID's as the float is different  */
     #product1 {
         height: 359px;
         width: 50%;
@@ -429,6 +427,20 @@ footer {
         width: 50%;
         float: right;
     }
+
+
+    /* Page 3 Workshop */
+
+    #w1 {
+        width: 50%;
+        float: left;
+    }
+
+    #w2 {
+        width: 50%;
+        float: right;
+    }
+
 }
 
 /* media query: Desktop and large screens (992px and up) */
@@ -445,6 +457,11 @@ footer {
         position: relative;
         width: fit-content;
         padding-right: 1rem;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+        font-size: 1.5rem;
     }
 
     main #page-heading {
@@ -470,10 +487,9 @@ footer {
     }
 
     #julie {
-        width: 500px;
         height: 400px;
         float: left;
-        margin-top: 175px;
+        margin-top: 50px;
         margin-left: 20px;
     }
 
