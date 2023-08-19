@@ -1,6 +1,12 @@
 /* Google fonts added */
 @import url("https://fonts.googleapis.com/css2?family=Amiri&family=IBM+Plex+Sans:wght@200&display=swap");
 
+:root {
+    --pink: #f3ccd5;
+    --beige: #ebe7e0;
+    --black: #000000;
+}
+
 /* Wildcard to override default styles by the browser */
 * {
     padding: 0;
@@ -11,7 +17,7 @@
 /* General Styles */
 body {
     /* Generic project styles */
-    color: #000000;
+    color: var(--black);
     font-family: "Amiri", sans-serif;
     min-height: 100vh;
     display: flex;
@@ -20,7 +26,7 @@ body {
 
 /* Header */
 header {
-    background-color: #f3ccd5;
+    background-color: var(--pink);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -58,7 +64,7 @@ h1 {
 /* Navbar styling and dropdown toggle */
 nav {
     position: absolute;
-    background-color: #f3ccd5;
+    background-color: var(--pink);
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -81,7 +87,7 @@ nav {
 
 /* Main Content */
 main {
-    background-color: #ebe7e0;
+    background-color: var(--beige);
     /* Make main element take up surplus space */
     height: 100vh;
     margin: 61px 0 0;
@@ -137,7 +143,7 @@ main #page-heading {
 
 /* Footer */
 footer {
-    background-color: #f3ccd5;
+    background-color: var(--pink);
     height: 75px;
     align-content: center;
     bottom: 0;
@@ -158,7 +164,7 @@ footer {
 }
 
 #social-media a {
-    color: black;
+    color: var(--black);
 }
 
 /* Page 2 products page */
@@ -703,8 +709,5 @@ footer {
         float: right;
 
     }
-
-    /* Page 4 Contact Us */
-
 
 }
