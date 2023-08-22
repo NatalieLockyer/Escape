@@ -1,6 +1,6 @@
 # Escape Soy Wax Candles and Gifts
 
-Escape Soy Wax Candles and Gifts is a website that is designed to attract any consumer with a love of natural soy wax candles, buying gifts/gift ideas and interactive workshops. This website showcases beautiful images and detailed descriptions of the products available to them and the workshops that are planned for future dates. There is also a “contact us” page, if they required any further information, or would simply like to sign up for a free brochure and discount code off their first order, all of which are useful to the target audience in order to decide as to whether they would like to purchase a gift or workshop package. 
+Escape Soy Wax Candles and Gifts is a website that is designed to attract any consumer with an interest of natural soy wax candles, buying gifts/gift ideas and interactive workshops. This website showcases beautiful images and detailed descriptions of the products available to them and the workshops that are planned for future dates. There is also a “contact us” page, if they require any further information, or would simply like to sign up for a free brochure and discount code to use with their first order, all of which are useful and attractive to the target audience in order persuade them to purchase a product or workshop package. 
 
 ![image](https://github.com/NatalieLockyer/Escape/assets/137916682/5c93fa91-b9fc-48d8-97fe-4f3989cf0be7)
 
@@ -41,14 +41,14 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 ### Client Goals
 
 * For their users to be able to view the site on a range of different size devices.
-*	Potential users to know exactly what the website is about and can navigate easily through the website. 
-*	An eye-catching display that makes the client want to return.
-*	Allow clients to contact the company if they want any other information.
+*	Potential users to know exactly what the website is about and be able to navigate easily through the website. 
+*	An eye-catching and attractive site that makes the client want to return.
+*	Allow clients to easily contact the company if they want any other information.
 
 ### First time visitor goals 
 
-*	As a new visitor, I want to easily understand the main purpose of the site and what it has to offer.
-*	I want to be able to navigate around with ease, using shortcuts if available.
+*	As a new visitor, I want to easily understand the purpose of the site and what it has to offer.
+*	I want to be able to navigate around with ease, using shortcuts, if available.
 *	I want to know what products are available and what workshops are on offer.
 *	I also want to be able to find their social media links.
 
@@ -61,7 +61,7 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 
 *	I want to be able to recommend this site to friends and family, or other users.
 *	I want to see if there are any offers or new products. 
-
+* I want to be able to create an account and earn rewards
 
 ## Design Features
 
@@ -78,12 +78,13 @@ For our larger devices (768px and above) the user will see the navigation menu d
 
 ![image](https://github.com/NatalieLockyer/Escape/assets/137916682/a8eb42cb-b88b-4bb4-8973-872f5fd16cc8)
 
-The navigation has been styled with bakground colour #f3ccd5, the font-family is Amiri and font colour is #000000 which all contrast together nicely. The navigation clearly explains to the user the shorthand name of the company and the different sections within the website making this easy for the user to navigate round.
+The navigation has been styled with bakground colour #f3ccd5, the font-family is Amiri and font colour is #000000 which all contrast together nicely. The navigation clearly explains to the user the shorthand name of the company and the different sections within the website making this easy for the user to navigate the site.
 
 ### Main Section (Homepage)
   The main section is seperated into three parts.  
 
-The first section contains a heading with the name of the company. This is clear and is in a slightly different style to the              navigation bar as to stand out to the user. This heading is used on all four pages of the website and continues the continuity of the     site. The font-style is in oblique and has a font-weight of 700.
+The first section contains a heading with the name of the company. This is clear and is in a slightly different style to the navigation bar as to stand out to the user. This heading is used on all four pages of the website and continues the theme of the
+ site. The font-style is in oblique and has a font-weight of 700.
 
 ![image](https://github.com/NatalieLockyer/Escape/assets/137916682/1a3dbd56-bf7e-4878-b673-9fb2adbed7d7)
 
@@ -131,25 +132,25 @@ I have run the webpage through Lighthouse on developer tools, these were the res
 
 * Homepage
 
-![Alt text](image-2.png)
+![image](assets/readme-imgs/image2.png)
 
 * Our Products
 
-![Alt text](image-3.png)
+![Alt text](assets/readme-imgs/image3.png)
 
 * Workshops 
 
-![Alt text](image-4.png)
+![Alt text](assets/readme-imgs/image4.png)
 
 * Contact Us
 
-![Alt text](image-5.png)
+![Alt text](assets/readme-imgs/image5.png)
 
 ### Colour Scheme
 
 These are the colours I chose for the theme, I think the pink and beige compliment each other whilst the black text used for the font stands out.
 
-![Alt text](image-7.png)
+![Alt text](assets/readme-imgs/image7.png)
 
 ### Typography 
 
@@ -161,7 +162,7 @@ For all other text I used 'IBM Plex Sands'
 
 For my wireframes I used Balsamiq. This was the first time I has used this programme, and after speaking with my mentor, I realise now that the detail I put into it was to much. I have learnt from this and will reduce how much I include next time, I will also add other size devices to test out my ideas. 
 
-![Alt text](image-12.png)
+![Alt text](assets/readme-imgs/image12.png)
 
 ## Technologies Used
 
@@ -207,7 +208,7 @@ How to clone
 * Open terminal in code editor and change the current directory to the location you want to use is
 * Type 'git clone' and paste link that you copied in step 3, press enter
 
-## Testing
+# Testing
 
 Throughout the build, I was constanly testing the website. I used Chrome developer tools to troubleshoot any issues I was having. 
 
@@ -230,19 +231,19 @@ The following items were brought up when I submitted my website to peer code rev
 I used the W3C Validator to validate the HTML on all pages of the website. I also used CSS Validator to validate the CSS style.css file, i had the following results:
 
 Index Page
-![Alt text](image-13.png)
+![Alt text](assets/readme-imgs/image13.png)
 
 Our Products Page
-![Alt text](image-15.png)
+![Alt text](assets/readme-imgs/image15.png)
 
 Workshop Page 
-![Alt text](image-16.png)
+![Alt text](assets/readme-imgs/image16.png)
 
 Contact Us Page
-![Alt text](image-17.png)
+![Alt text](assets/readme-imgs/image17.png)
 
 Style.css Page
-![Alt text](image-18.png)
+![Alt text](assets/readme-imgs/image18.png)
 
 ## Full Testing
 
@@ -285,9 +286,11 @@ Content
 * The text throughout the website was taken from Google Fonts.
 *	The icons throughout the website was taken from Fontawesome
 *	The icon used for the favicon was taken from Flaticon, and I used Favicon to convert the image to a favicon.
-* If I needed any assistance with coding, I firstly would google the issue to see if it was something simple that I was missing, I would then look to W3Schools and then reach out on Slack to my fellow students. If all this failed I then contacted the Code Insitute Tutors. 
-* When creating the drop down menu, I used the Code Institue slide (in particular the coders coffeehouse slides) to assist me. 
-* When creating the form, I used the Code Institute slides (in particular the love running slide) to assist me.  
+
+The following were used as references to help with writing the HTML and CSS Code 
+* Code Institute, in particular the CI Love Running Walkthrough and Coders Coffee House.
+* W3Schhols
+* Stack Overflow 
 
 Media
 *	The images used throughout the website were taken from Pexels, iStockphoto, Freepik and Unsplash
