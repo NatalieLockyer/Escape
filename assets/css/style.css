@@ -171,7 +171,7 @@ footer {
 
 /* Page 2 products page */
 #products {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     font-weight: 700;
@@ -207,7 +207,7 @@ footer {
 
 /* Page 3 Workshops */
 #workshops {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     font-weight: bold;
@@ -278,7 +278,7 @@ footer {
 
 /* Page 4 Contact Us Page */
 #contactus {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     font-weight: bold;

@@ -32,6 +32,7 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 ### Testing
 * W3C Validator
 * Bugs
+* Full Testing
 
 ### Credits 
 
@@ -208,7 +209,7 @@ How to clone
 
 ## Testing
 
-Throughout the build, I was constanly testing thw website. I used Chrome developer tools to troubleshoot any issues I was having. 
+Throughout the build, I was constanly testing the website. I used Chrome developer tools to troubleshoot any issues I was having. 
 
 The following issue were raised at my mid project meeting with my mentor:
 
@@ -220,7 +221,7 @@ The following issue were raised at my mid project meeting with my mentor:
 The following items were brought up when I submitted my website to peer code review on Slack:
 
 * On 'Workshop' page, use letter spacing so the text doesnt looked as cramped.
-* Page title was a <p> instead of a 'heading.
+* Page title was a paragraph instead of a 'heading.
 * on 'Contact' page the map was partly off the screen and not centered.
 * Checked spacing of events as they look a little squashed.
 
@@ -243,7 +244,54 @@ Contact Us Page
 Style.css Page
 ![Alt text](image-18.png)
 
+## Full Testing
 
+In order to fully test the responsiveness of my website, I performed the following testing on a number of browsers and devices, these being 
+* Browsers 
+  - Google Chrome, Firefox and Safari.
+
+* Devices 
+  - Redmi 10, Redmi Note 11 pro 5G, Iphone 13, 
+  - iPad, iPad mini, iPad Pro, 
+
+1. Test each link on the 'index page'. Each link worked as it should. Links leading to external pages also opened correctly on a new browser tab. 
+2. Test each link on the 'Our Products' page. Each link worked as it should. Links leading to external pages also opened correctly on a new browser tab.
+3. Test each link on the 'Workshop' page. Each link worked as it should. Links leading to external pages also opened correctly on a new browser tab.
+4. Test each link on the 'Contact Us' page. Each link worked as it should. Links leading to external pages also opened correctly on a new browser tab.
+
+Contact Us form 
+ - The form is working as expected. All of the inputs have been tested and all are required before this can be submitted. 
+ - The email must contain @ symbol. 
+ - I have tried submitting the form without any information, the form directs the user to fill in the name field, and so on. 
+
+### Bugs
+
+Issue with menu (burger menu) not displaying in the Nav Bar
+* Spoke with tutor, I hadnt added the font awesome script link to the header. This issue was resolved
+
+Issue pushing the footer to the bottom
+* This was an issue with the position. This issue was resolved
+
+Issue with CodeAnyWhere not saving my changed
+* After a period of time and speaking with tutor I logged out and back in again. The issue was resolved.
+
+Issue with 'Main' sitting half way up the page
+* Spoke with tutor, this was an overflow issue. The issue is now resolved. 
+
+### Credits 
+
+### Content
+* All Content was written by myself
+* The text throughout the website was taken from Google Fonts.
+*	The icons throughout the website was taken from Fontawesome
+*	The icon used for the favicon was taken from Flaticon, and I used Favicon to convert the image to a favicon.
+* If I needed any assistance with coding, I firstly would google the issue to see if it was something simple that I was missing, I would then look to W3Schools and then reach out on Slack to my fellow students. If all this failed I then contacted the Code Insitute Tutors. 
+* When creating the drop down menu, I used the Code Institue slide (in particular the coders coffeehouse slides) to assist me. 
+* When creating the form, I used the Code Institute slides (in particular the love running slide) to assist me.  
+
+### Media
+*	The images used throughout the website were taken from Pexels, iStockphoto, Freepik and Unsplash
+*	The map on the contact us page was taken from Google Maps. 
 
 
 
