@@ -161,3 +161,52 @@ For all other text I used 'IBM Plex Sands'
 For my wireframes I used Balsamiq. This was the first time I has used this programme, and after speaking with my mentor, I realise now that the detail I put into it was to much. I have learnt from this and will reduce how much I include next time, I will also add other size devices to test out my ideas. 
 
 ![Alt text](image-12.png)
+
+## Technologies Used
+
+### Languages Used 
+* HTML
+* CSS
+
+### Frameworks Used 
+* Balsamiq - Used to create wireframes
+* Codeanywhere - Used to save and store files
+* GitHub - Used for version control
+* GitPod - Used to save and store files
+* Google Fonts - Used to import fonts
+* Font awesome - Used to import icons
+* Google Dev Tools  - Used to test my features and to solve issues
+* Favicon - Used to upload favicon
+
+## Deployment and Local Depyloyment
+
+This website was deployed to GitHub pages. The steps to deploy this pageto GitHub from its Github repository is as follows:
+
+### Deployment 
+
+* Login to Github
+* Open the repository
+* Navigate to the settings tab
+* Click on 'Pages' in the left hand column
+* Under 'Source' select 'Deploy from branch'
+* Under 'Branch' select 'main', 'root' and save. This step may take a little time to  process.
+* Once completed, the URL will appear above 'source'.
+
+### Local Deployment
+
+How to Fork 
+* Login to Github
+* Open repository
+* Click fork button in the top right corner.
+
+How to clone 
+* Login to Github
+* Open repository 
+* Click on the 'code' button, select which you would like with HTTPS, SSH or GitHib CLI and copy
+* Open terminal in code editor and change the current directory to the location you want to use is
+* Type 'git clone' and paste link that you copied in step 3, press enter
+
+
+
+
+
