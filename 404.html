@@ -5,11 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Meta tags for search engines -->
-    <meta name="description"
-        content="Escape Soy Wax Candles & Gifts, a lancashire based buisness, specialising in handmade soy wax candles, diffusers, gifts and interactive workshops.">
-    <meta name="keywords"
-        content="escape, soy, handmade, candles, soy candles, wax melts, burners, diffusers, lancashire, interactive workshops, activities">
 
     <!-- Title -->
     <title>Escape Soy Wax Candles & Gifts</title>
@@ -21,16 +16,33 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Font awesome Kit  -->
     <script src="https://kit.fontawesome.com/3ad1443fbb.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <p id="logo">Escape</p>
+        </a>
+        <!-- burger icon dorp down menu -->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" class="flow">Homepage</a></li>
+                <li><a href="products.html">Our Products</a></li>
+                <li><a href="workshops.html">Workshops</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <!-- 404 content -->
     <main class="container-404">
         <div>
             <h1 class="text-404">404 Error </h1>
-            <p> Oops! It looks like you have encounted a broken link</p>
-            <p> Click the button below to return to the home page</p>
+            <p class="p-404"> Oops! It looks like you have encounted a broken link</p>
+            <p class="p-404"> Click the button below to return to the home page</p>
             <a href="index.html" class="button-404">Return to Homepage</a>
         </div>
     </main>
