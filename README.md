@@ -146,6 +146,10 @@ I have run the webpage through Lighthouse on developer tools, the results are sh
 
 ![Alt text](assets/readme-imgs/image5.png)
 
+* 404 Page
+
+![Alt text](assets/readme-imgs/image19.png)
+
 ### Colour Scheme
 
 These are the colours I chose for the theme, I think the pink and beige compliment each other whilst the black text used for the font stands out.
