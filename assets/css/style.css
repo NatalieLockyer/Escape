@@ -38,13 +38,14 @@ header {
 }
 
 header a {
+    font-size: 1.7rem;
     text-decoration: none;
     color: inherit;
     margin: 10px 0
 }
 
 h1 {
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "amiri", sans-serif;
     text-transform: uppercase;
     color: inherit;
 }
@@ -91,13 +92,13 @@ main {
     background-color: var(--beige);
     /* Make main element take up surplus space */
     height: 100vh;
-    margin: 61px 0 0;
+    margin: 59.19px 0 0;
     overflow: auto;
 }
 
 main #page-heading {
     font-style: oblique;
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 700;
     text-align: center;
     margin: 5px;
@@ -238,6 +239,7 @@ footer {
 
 .workshoptext {
     font-size: 1rem;
+    letter-spacing: 0.1rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
@@ -247,6 +249,7 @@ footer {
 #workshop1course {
     font-size: 1.5rem;
     font-weight: bold;
+    letter-spacing: 0.1rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
@@ -256,6 +259,7 @@ footer {
 #workshop2course {
     font-size: 1.5rem;
     font-weight: bold;
+    letter-spacing: 0.1rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
@@ -265,6 +269,7 @@ footer {
 #workshop3course {
     font-size: 1.5rem;
     font-weight: bold;
+    letter-spacing: 0.1rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
@@ -295,17 +300,17 @@ footer {
     margin: auto;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #address {
     display: block;
     margin: 20px;
     width: 100%;
     text-align: center;
-}
-
-#google-map {
-    width: 204px;
-    height: 204px;
-    align-items: center;
 }
 
 #recycle {
@@ -367,6 +372,8 @@ footer {
         display: none;
     }
 
+
+
     /* Main content */
     main {
         /* Push content down to accomodate larger heading */
@@ -374,9 +381,6 @@ footer {
         height: 100%;
     }
 
-    main #page-heading {
-        font-size: 3rem;
-    }
 
     #hp-img {
         width: 400px;
@@ -575,23 +579,13 @@ footer {
 
 /* Page 4 Contact Us */
 
-#address {
-    width: 50%;
-    float: left;
-    font-size: 20px;
-}
-
-#google-map {
-    display: block;
-    margin: 40px;
-    width: 350px;
-    height: 200px;
-}
-
 #recycle {
     width: 100%;
 }
 
+div .container {
+    display: inline-flex;
+}
 
 /* media query: Extra large screens and TV (1301px and up) */
 @media screen and (min-width: 1301px) {
