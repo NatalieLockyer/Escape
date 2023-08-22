@@ -88,22 +88,22 @@ The first section contains a heading with the name of the company. This is clear
 
 ![image](https://github.com/NatalieLockyer/Escape/assets/137916682/1a3dbd56-bf7e-4878-b673-9fb2adbed7d7)
 
-The second section contains and image and a caption providing clear information about what the company does and where they source        their materials. The image is to entise the user in and want to look further.
+The second section contains an image and caption providing clear information about what the company does and where they source their materials. The image is to entice the user to want to look further.
 
-The third section contains an 'about me' and image. The about me gives potential customers an insight as to how the company started,      the passion that has gone into creating the company and hopes to build strong connections with the users.
+The third section contains an 'about me' and an image. The about me gives potential customers an insight as to how the company started, the passion that has gone into creating the company and hopes to build strong connections with the users.
 
 The main section has been styled with the same font-family, all have been centerally aligned. 
 
 ### Footer
 
-Featured on all for four pages, The footer is located at the bottom of the webpage. The footer includes links to Facebook, Instagram, Twitter and Youtube sites for Escape. These links all open on to a new tab. These links are great for encouraging the user to view our site via other social media outlets. 
+Featured on all for four pages, The footer is located at the bottom of the webpage. The footer includes links to Facebook, Instagram, Twitter and Youtube sites for 'Escape'. These links all open on to a new tab. These links are great for encouraging the user to view our site via other social media outlets and be able to 'follow' the company. This also has the potential for exposure using giveaways and shares to promote the company.
 
 ![image](https://github.com/NatalieLockyer/Escape/assets/137916682/0a975623-870a-4bb3-b752-c67efc3ed677)
 
 ### Our Products Page
 
 The product page contains images and descriptions of the products that are for sale. As part of the description you can see how much the candles/items sell for and what frangrances are available, this is shown in a drop down menu underneath each description. 
-This section is valuble to the user as they can see what products are available to them.
+This section is valuble to the user as they can see the products that are available.
 
 ![image](https://github.com/NatalieLockyer/Escape/assets/137916682/2883db29-e8ed-458a-aea7-f28a919c9d60)
 
@@ -115,20 +115,20 @@ The workshop page contains images and descpitions of the interactive courses tha
 
 ### Contact Page
 
-The contact page is an interactive way were the user can make contact with the team. Whether that is for further infomation or to request a free brochure and discount code. The user is required to add their first name, last name and email address, if anything is missing the form will not send.
-Here there is also a contact address, number and google map to show the user where the headquarters for the company is. 
-There are also some icons and descriptions of how the company complies with recycling / animal friendly procucts and reusing products,  which in our current climate of working together to bring the levels of global warning down, is important for the user to see. 
+The contact page is interactive allowing the user to make contact with the team. Whether that is for further infomation or to request a free brochure and discount code. The user is required to add their first name, last name and email address. If anything is missing the form will not send.
+There is a contact address, number and google map to show the user where the headquarters for the company is. 
+There are also icons and descriptions of how the company complies with recycling / animal friendly products and reusing products, which in our current climate of working together to bring the levels of global warning down, is important for the user to see. 
 
 ![image](https://github.com/NatalieLockyer/Escape/assets/137916682/1e47c0a3-bc13-43f0-9d6b-927d23cfbde9)
 
 ### Future Features
 
-* A slideshow of images on the homepage to showcase what we have to offer, to enhance the expirence for the user and increase interest in the page.
-* Add reviews from previous clients
+* A slideshow of images on the homepage to futher showcase what the site has to offer, to enhance the experience of the user and increase interest in the page.
+* Add reviews from previous clients.
 
 ### Accessibility
 
-I have run the webpage through Lighthouse on developer tools, these were the results.
+I have run the webpage through Lighthouse on developer tools, the results are shown below.
 
 * Homepage
 
@@ -160,7 +160,7 @@ For all other text I used 'IBM Plex Sands'
 
 ### Wireframes
 
-For my wireframes I used Balsamiq. This was the first time I has used this programme, and after speaking with my mentor, I realise now that the detail I put into it was to much. I have learnt from this and will reduce how much I include next time, I will also add other size devices to test out my ideas. 
+For my wireframes I used Balsamiq. This was the first time I had used this programme, and after speaking with my mentor, I realise now that there was too much detail. In future, I will reduce how much I include, I will also add other size devices to test out my ideas. 
 
 ![Alt text](assets/readme-imgs/image12.png)
 
@@ -210,21 +210,21 @@ How to clone
 
 # Testing
 
-Throughout the build, I was constanly testing the website. I used Chrome developer tools to troubleshoot any issues I was having. 
+Throughout the build, I was constantly testing the website. I used Chrome developer tools to troubleshoot any issues I experienced. 
 
-The following issue were raised at my mid project meeting with my mentor:
+The following issues were raised at my mid project meeting with my mentor:
 
 * The font size was in px and was reccomended that I use rem.
 * Some of my file names were not consistant.
 * I had used a lot of ID's and some of these could be changed to a class.
 * A color-variable was suggested.
 
-The following items were brought up when I submitted my website to peer code review on Slack:
+The following items were raised when I submitted my website to peer code review on Slack:
 
 * On 'Workshop' page, use letter spacing so the text doesnt looked as cramped.
 * Page title was a paragraph instead of a 'heading.
 * on 'Contact' page the map was partly off the screen and not centered.
-* Checked spacing of events as they look a little squashed.
+* Check spacing of events as they look a little squashed.
 
 ## W3C Validator
 
