@@ -293,9 +293,10 @@ Media
 *	The images used throughout the website were taken from Pexels, iStockphoto, Freepik and Unsplash
 *	The map on the contact us page was taken from Google Maps. 
 
-Acknowledgements 
+Acknowledgements
+
 I would like to acknowledge the following people who helped me to complete my first milestone project:
- * Jack Washira, my mentor for taking the time to assist me throughout the project
+ * Jack Wachira, my mentor for taking the time to assist me throughout the project
  * All of the Code Insitute Tutors who helped when I struggled to solve the issues. 
  * My fellow students, Kiera and Zainab who took the time to respond to my peer code review request in slack, and gave some excellent feedback. 
  * My family for their patience while I disappeared to code. 

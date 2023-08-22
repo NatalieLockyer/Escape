@@ -457,10 +457,17 @@ footer {
 
     .container {
         display: flex;
-        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
     }
 
-    #map {}
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
 }
 
 /* media query: Desktop and large screens (992px and up) */
