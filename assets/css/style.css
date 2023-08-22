@@ -129,7 +129,6 @@ main #page-heading {
     display: block;
     text-align: center;
     font-size: 1rem;
-    font-weight: 600;
     font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -170,8 +169,8 @@ footer {
 }
 
 /* Page 2 products page */
-#products {
-    font-size: 2.5rem;
+.page-title {
+    font-size: 2rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     font-weight: 700;
@@ -206,23 +205,16 @@ footer {
 }
 
 /* Page 3 Workshops */
-#workshops {
-    font-size: 2.5rem;
-    font-family: "IBM Plex Sans", sans-serif;
-    text-align: center;
-    font-weight: bold;
-    margin: auto auto 35px;
-}
 
 #question {
     font-size: 1.5rem;
-    font-family: "IBM Plex Sans", sans-serif;
+    font-style: oblique;
     text-align: center;
     font-weight: bold;
 }
 
 #pg3text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     margin: 20px;
@@ -239,7 +231,7 @@ footer {
 
 .workshoptext {
     font-size: 1rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
@@ -249,7 +241,7 @@ footer {
 #workshop1course {
     font-size: 1.5rem;
     font-weight: bold;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
@@ -259,7 +251,7 @@ footer {
 #workshop2course {
     font-size: 1.5rem;
     font-weight: bold;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
@@ -269,7 +261,7 @@ footer {
 #workshop3course {
     font-size: 1.5rem;
     font-weight: bold;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
@@ -277,16 +269,9 @@ footer {
 }
 
 /* Page 4 Contact Us Page */
-#contactus {
-    font-size: 2.5rem;
-    font-family: "IBM Plex Sans", sans-serif;
-    text-align: center;
-    font-weight: bold;
-    margin: auto auto 35px;
-}
 
 #pg4text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     margin: 20px;
@@ -366,11 +351,12 @@ footer {
     /* Header */
     #menu {
         display: flex;
+        font-size: 1.3rem;
     }
 
     #menu>li {
         padding-left: 1rem;
-        font-size: 1.2rem;
+
     }
 
     nav {
@@ -387,10 +373,19 @@ footer {
     /* Main content */
     main {
         /* Push content down to accomodate larger heading */
-        margin-top: 77.9px;
+        margin-top: 78.8px;
         height: 100%;
     }
 
+    main #page-heading {
+        font-style: oblique;
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+    }
 
     #hp-img {
         width: 400px;
@@ -398,12 +393,11 @@ footer {
     }
 
     #hp-caption {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     #about-me {
-        font-size: 1.6rem;
-        font-weight: 600;
+        font-size: 1.5rem;
     }
 
     #julie {
@@ -412,11 +406,19 @@ footer {
     }
 
     /* Page 2 Products - These are in ID's as the float is different  */
-    #product1 {
+    .page-title {
+        font-size: 3rem;
+        font-family: "IBM Plex Sans", sans-serif;
+        text-align: center;
+        font-weight: 700;
+        margin: auto auto 35px;
+    }
 
+    #product1 {
         height: 359px;
         width: 50%;
         float: left;
+
     }
 
     #product2 {
@@ -452,6 +454,22 @@ footer {
 
     /* Page 3 Workshop */
     /* These are IDs as they have different content */
+
+    #question {
+        font-size: 1.8rem;
+        font-style: oblique;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #pg3text {
+        font-size: 1.5rem;
+        font-family: "IBM Plex Sans", sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+
+
     #w1 {
         width: 50%;
         float: left;
@@ -468,6 +486,7 @@ footer {
     }
 
     .container {
+        font-size: 1.5rem;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -479,6 +498,43 @@ footer {
         display: flex;
         width: 100%;
         justify-content: center;
+    }
+
+    /* Page 4 - Contact Us */
+
+    #pg4text {
+        font-size: 1.5rem;
+        font-family: "IBM Plex Sans", sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+
+    #recycle1 {
+        font-size: 1rem;
+        text-align: center;
+        width: 20%;
+        float: left
+    }
+
+    #recycle2 {
+        font-size: 1rem;
+        text-align: center;
+        width: 20%;
+        float: left
+    }
+
+    #recycle3 {
+        font-size: 1rem;
+        text-align: center;
+        width: 20%;
+        float: left
+    }
+
+    #recycle4 {
+        font-size: 1rem;
+        text-align: center;
+        width: 20%;
+        float: left
     }
 
 }
@@ -517,7 +573,13 @@ footer {
     }
 
     main #page-heading {
+        font-style: oblique;
         font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
     }
 
     #hp-img {
@@ -526,7 +588,7 @@ footer {
     }
 
     #hp-caption {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 
     #about-me {
@@ -546,6 +608,14 @@ footer {
     }
 
     /* Page 2 Products */
+
+    .page-title {
+        font-size: 3.2rem;
+        font-family: "IBM Plex Sans", sans-serif;
+        text-align: center;
+        font-weight: 700;
+        margin: auto auto 35px;
+    }
 
     #product1 {
         height: 359px;
@@ -585,6 +655,20 @@ footer {
 
     /* Page 3 Workshop */
 
+    #question {
+        font-size: 2.5rem;
+        font-style: oblique;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #pg3text {
+        font-size: 2rem;
+        font-family: "IBM Plex Sans", sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+
     #w1 {
         width: 50%;
         float: left;
@@ -602,6 +686,13 @@ footer {
 }
 
 /* Page 4 Contact Us */
+
+#pg4text {
+    font-size: 1.8rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+    margin: 20px;
+}
 
 #recycle {
     width: 100%;
@@ -641,7 +732,13 @@ footer {
     }
 
     main #page-heading {
-        font-size: 4rem;
+        font-style: oblique;
+        font-size: 3.5rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
     }
 
     #hp-img {
@@ -654,8 +751,7 @@ footer {
     }
 
     #about-me {
-        font-size: 1.8rem;
-        font-weight: 600;
+        font-size: 2rem;
         width: 50%;
         float: right;
         margin-top: 50px;
@@ -663,13 +759,21 @@ footer {
     }
 
     #julie {
-        height: 400px;
-        width: 400px;
+        height: 500px;
+        width: 500px;
         float: left;
         margin: 100px 0 auto 20px;
     }
 
     /* Page 2 Products */
+
+    .page-title {
+        font-size: 3.5rem;
+        font-family: "IBM Plex Sans", sans-serif;
+        text-align: center;
+        font-weight: 700;
+        margin: auto auto 35px;
+    }
 
     #product1 {
         height: 359px;
@@ -709,6 +813,21 @@ footer {
 
     /* Page 3 workshop */
 
+
+    #question {
+        font-size: 3rem;
+        font-style: oblique;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #pg3text {
+        font-size: 2.5rem;
+        font-family: "IBM Plex Sans", sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+
     #w1 {
         width: 33.33%;
         float: left;
@@ -726,5 +845,17 @@ footer {
     }
 
     /* Page 4 - Contact Us */
+    #pg4text {
+        font-size: 2.5rem;
+        font-family: "IBM Plex Sans", sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+
+    #recycle {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
 
 }
