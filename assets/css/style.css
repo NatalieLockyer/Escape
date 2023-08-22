@@ -349,7 +349,7 @@ footer {
 }
 
 /* media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
 
     /* Header */
     #menu {
@@ -372,12 +372,10 @@ footer {
         display: none;
     }
 
-
-
     /* Main content */
     main {
         /* Push content down to accomodate larger heading */
-        margin-top: 71.59px;
+        margin-top: 77.9px;
         height: 100%;
     }
 
@@ -457,10 +455,16 @@ footer {
         margin: 0 auto;
     }
 
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #map {}
 }
 
 /* media query: Desktop and large screens (992px and up) */
-@media screen and (min-width:992px) and (max-width:1300px) {
+@media screen and (min-width:992px) {
 
     /* heading */
 
@@ -583,10 +587,6 @@ footer {
     width: 100%;
 }
 
-div .container {
-    display: inline-flex;
-}
-
 /* media query: Extra large screens and TV (1301px and up) */
 @media screen and (min-width: 1301px) {
 
@@ -704,5 +704,7 @@ div .container {
         float: right;
 
     }
+
+    /* Page 4 - Contact Us */
 
 }

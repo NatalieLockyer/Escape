@@ -175,7 +175,7 @@ For my wireframes I used Balsamiq. This was the first time I has used this progr
 * GitPod - Used to save and store files
 * Google Fonts - Used to import fonts
 * Font awesome - Used to import icons
-* Google Dev Tools  - Used to test my features and to solve issues
+* Chrome Dev Tools  - Used to test my features and to solve issues
 * Favicon - Used to upload favicon
 
 ## Deployment and Local Depyloyment
@@ -205,6 +205,46 @@ How to clone
 * Click on the 'code' button, select which you would like with HTTPS, SSH or GitHib CLI and copy
 * Open terminal in code editor and change the current directory to the location you want to use is
 * Type 'git clone' and paste link that you copied in step 3, press enter
+
+## Testing
+
+Throughout the build, I was constanly testing thw website. I used Chrome developer tools to troubleshoot any issues I was having. 
+
+The following issue were raised at my mid project meeting with my mentor:
+
+* The font size was in px and was reccomended that I use rem.
+* Some of my file names were not consistant.
+* I had used a lot of ID's and some of these could be changed to a class.
+* A color-variable was suggested.
+
+The following items were brought up when I submitted my website to peer code review on Slack:
+
+* On 'Workshop' page, use letter spacing so the text doesnt looked as cramped.
+* Page title was a <p> instead of a 'heading.
+* on 'Contact' page the map was partly off the screen and not centered.
+* Checked spacing of events as they look a little squashed.
+
+## W3C Validator
+
+I used the W3C Validator to validate the HTML on all pages of the website. I also used CSS Validator to validate the CSS style.css file, i had the following results:
+
+Index Page
+![Alt text](image-13.png)
+
+Our Products Page
+![Alt text](image-15.png)
+
+Workshop Page 
+![Alt text](image-16.png)
+
+Contact Us Page
+![Alt text](image-17.png)
+
+Style.css Page
+![Alt text](image-18.png)
+
+
+
 
 
 
