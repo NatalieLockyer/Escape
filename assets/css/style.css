@@ -145,7 +145,7 @@ main #page-heading {
 /* Footer */
 footer {
     background-color: var(--pink);
-    height: 75px;
+    height: 80px;
     align-content: center;
     bottom: 0;
     left: 0;
@@ -154,7 +154,7 @@ footer {
 
 #social-media {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0 0 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -166,6 +166,11 @@ footer {
 
 #social-media a {
     color: var(--black);
+}
+
+.copyright {
+    background-color: var(--pink);
+    text-align: center;
 }
 
 /* Page 2 products page */
