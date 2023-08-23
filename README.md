@@ -218,7 +218,7 @@ Throughout the build, I was constantly testing the website. I used Chrome develo
 
 The following issues were raised at my mid project meeting with my mentor:
 
-* The font size was in px and was reccomended that I use rem.
+* The font size was in px and was recommended that I use rem.
 * Some of my file names were not consistant.
 * I had used a lot of ID's and some of these could be changed to a class.
 * A color-variable was suggested.
@@ -282,6 +282,9 @@ Issue with CodeAnyWhere not saving my changed
 
 Issue with 'Main' sitting half way up the page
 * Spoke with tutor, this was an overflow issue. The issue is now resolved. 
+
+Issue with 'pg4text' on mobile device. 
+* Will not load at 1rem and is sticking with 1.8rem which is for a larger device. Unable to resolve this issue.
 
 ### Credits 
 
