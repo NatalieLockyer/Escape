@@ -235,18 +235,23 @@ The following items were raised when I submitted my website to peer code review 
 I used the W3C Validator to validate the HTML on all pages of the website. I also used CSS Validator to validate the CSS style.css file, i had the following results:
 
 Index Page
+
 ![Alt text](assets/readme-imgs/image13.png)
 
 Our Products Page
+
 ![Alt text](assets/readme-imgs/image15.png)
 
 Workshop Page 
+
 ![Alt text](assets/readme-imgs/image16.png)
 
 Contact Us Page
+
 ![Alt text](assets/readme-imgs/image17.png)
 
 Style.css Page
+
 ![Alt text](assets/readme-imgs/image18.png)
 
 ## Full Testing
@@ -259,15 +264,26 @@ In order to fully test the responsiveness of my website, I performed the followi
   - Redmi 10, Redmi Note 11 pro 5G, Iphone 13, 
   - iPad, iPad mini, iPad Pro, 
 
-1. Test each link on the 'index page'. Each link worked as it should. Links leading to external pages also opened correctly on a new browser tab. 
-2. Test each link on the 'Our Products' page. Each link worked as it should. Links leading to external pages also opened correctly on a new browser tab.
-3. Test each link on the 'Workshop' page. Each link worked as it should. Links leading to external pages also opened correctly on a new browser tab.
-4. Test each link on the 'Contact Us' page. Each link worked as it should. Links leading to external pages also opened correctly on a new browser tab.
 
-Contact Us form 
- - The form is working as expected. All of the inputs have been tested and all are required before this can be submitted. 
- - The email must contain @ symbol. 
- - I have tried submitting the form without any information, the form directs the user to fill in the name field, and so on. 
+| Feature      | Expected Outcome | Testing Performed    | Result | Pass or Fail |
+|   :---       |      :----:      |        :----:        | :----: |    :----:    |
+| *Nav Bar*      |                  |                      |        |              |
+| Escape logo  | When clicked the <br> user will return <br> to the top of <br> the homepage      | Clicked logo   | Redirected to <br> homepage       | Pass        |
+| Menu toggle  | When clicked the <br> menu will open <br> and display <br> the site pages | Clicked menu | Opens to display site list | Pass |
+| Homepage Link  | When clicked the <br> user will be <br> returned to Homepage | Clicked Link | Redirected to Homepage | Pass |
+| Our Products Link  | When clicked the <br> user will be <br> directed to 'Our Product' <br> page | Clicked Link | Redirected to <br> Our Product Page | Pass |
+| Workshops Link  | When clicked the <br> user will be <br> directed to the 'Workshop' <br> page | Clicked Link | Redirected to <br> Workshop Page | Pass |
+| Contact Page Link  | When clicked the <br> user will be <br> directed to the 'Contact Us' <br> page | Clicked Link | Redirected to <br> Contact Us Page | Pass |
+| *Footer*       |                  |                      |        |              |
+| Social Media Icons  | When clicked the <br> user will be <br> redirected to the <br> appropriate social <br> media page in a <br> new window| Clicked icon | Redirected to the <br> social media page <br> in a new window | Pass |
+| *Our Products Page*  |               |                      |        |              |
+| Drop down menu  |When clicked the <br> user will be <br> able to see the <br> fragrances available | Clicked down arrow |Drop down list of <br> fragrances appear | Pass |
+| Image Responsiveness | When window is resized <br> images are responsive <br> and layout looked as <br> expected |Resized Window  | Images are responsive and <br> layout looks good | Pass  |
+| *Workshop Page*  |              |                      |        |              |
+| Image Responsiveness  | When window is resized <br> images are responsive <br> and layout looked as <br> expected | Resized window | Images are responsive and <br> layout looks good | Pass |
+| *Contact Us Page*  |            |                      |        |              |
+| Form   | When items are left out <br> a message appears to <br> tell user to fill <br> that section in | Clicked submit when <br> form was not complete | Message appeared <br> requested user to <br> fill in section | Pass |
+| Google Map  | When clicked <br> Map should be interactive | Clicked Map| Map opened in new <br> window, and user <br> able to zoom in <br> and out as expected | Pass |
 
 ### Bugs
 
