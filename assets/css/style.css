@@ -309,29 +309,8 @@ footer {
     justify-content: space-evenly;
 }
 
-/* These are in ID's as icon is different */
-#recycle1 {
-    font-size: 0.8rem;
-    text-align: center;
-    width: 20%;
-    float: left
-}
 
-#recycle2 {
-    font-size: 0.8rem;
-    text-align: center;
-    width: 20%;
-    float: left
-}
-
-#recycle3 {
-    font-size: 0.8rem;
-    text-align: center;
-    width: 20%;
-    float: left
-}
-
-#recycle4 {
+.recycle {
     font-size: 0.8rem;
     text-align: center;
     width: 20%;
