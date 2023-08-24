@@ -21,9 +21,9 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 * Typography
 * Wireframes
 
+### Languages Used
+
 ### Technologies Used
-* Languages Used
-* Frameworks Used
 
 ### Deployment and Local Deployment
 * Deployment 
@@ -132,29 +132,29 @@ I have run the webpage through Lighthouse on developer tools, the results are sh
 
 * Homepage
 
-![image](assets/readme-imgs/image2.png)
+![image](/readme-imgs/image2.png)
 
 * Our Products
 
-![Alt text](assets/readme-imgs/image3.png)
+![Alt text](/readme-imgs/image3.png)
 
 * Workshops 
 
-![Alt text](assets/readme-imgs/image4.png)
+![Alt text](/readme-imgs/image4.png)
 
 * Contact Us
 
-![Alt text](assets/readme-imgs/image5.png)
+![Alt text](/readme-imgs/image5.png)
 
 * 404 Page
 
-![Alt text](assets/readme-imgs/image19.png)
+![Alt text](/readme-imgs/image19.png)
 
 ### Colour Scheme
 
 These are the colours I chose for the theme, I think the pink and beige compliment each other whilst the black text used for the font stands out.
 
-![Alt text](assets/readme-imgs/image7.png)
+![Alt text](/readme-imgs/image7.png)
 
 ### Typography 
 
@@ -166,15 +166,13 @@ For all other text I used 'IBM Plex Sands'
 
 For my wireframes I used Balsamiq. This was the first time I had used this programme, and after speaking with my mentor, I realise now that there was too much detail. In future, I will reduce how much I include, I will also add other size devices to test out my ideas. 
 
-![Alt text](assets/readme-imgs/image12.png)
+![Alt text](/readme-imgs/image12.png)
 
-## Technologies Used
-
-### Languages Used 
+## Languages Used 
 * HTML
 * CSS
 
-### Frameworks Used 
+## Technologies Used
 * Balsamiq - Used to create wireframes
 * Codeanywhere - Used to save and store files
 * GitHub - Used for version control
@@ -236,23 +234,23 @@ I used the W3C Validator to validate the HTML on all pages of the website. I als
 
 Index Page
 
-![Alt text](assets/readme-imgs/image13.png)
+![Alt text](/readme-imgs/image13.png)
 
 Our Products Page
 
-![Alt text](assets/readme-imgs/image15.png)
+![Alt text](/readme-imgs/image15.png)
 
 Workshop Page 
 
-![Alt text](assets/readme-imgs/image16.png)
+![Alt text](/readme-imgs/image16.png)
 
 Contact Us Page
 
-![Alt text](assets/readme-imgs/image17.png)
+![Alt text](/readme-imgs/image17.png)
 
 Style.css Page
 
-![Alt text](assets/readme-imgs/image18.png)
+![Alt text](/readme-imgs/image18.png)
 
 ## Full Testing
 

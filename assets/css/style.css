@@ -290,7 +290,7 @@ footer {
 }
 
 
-.recycle {
+.recycletext {
     font-size: 0.8rem;
     text-align: center;
     width: 20%;
@@ -473,28 +473,7 @@ footer {
         margin: 20px;
     }
 
-    #recycle1 {
-        font-size: 1rem;
-        text-align: center;
-        width: 20%;
-        float: left
-    }
-
-    #recycle2 {
-        font-size: 1rem;
-        text-align: center;
-        width: 20%;
-        float: left
-    }
-
-    #recycle3 {
-        font-size: 1rem;
-        text-align: center;
-        width: 20%;
-        float: left
-    }
-
-    #recycle4 {
+    .recycletext {
         font-size: 1rem;
         text-align: center;
         width: 20%;
@@ -816,10 +795,9 @@ footer {
         margin: 20px;
     }
 
-    #recycle {
+    .recycletext {
         font-size: 2.5rem;
         width: 100%;
     }
-
 
 }
