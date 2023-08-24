@@ -35,6 +35,10 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 * Full Testing
 
 ### [Credits](#credits-1)
+* Content
+* Media
+* Acknowledgement
+
 
 ## User Experience (UX)
 
