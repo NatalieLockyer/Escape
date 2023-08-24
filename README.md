@@ -1,4 +1,4 @@
-# Escape Soy Wax Candles and Gifts
+# [Escape Soy Wax Candles and Gifts](https://natalielockyer.github.io/Escape/index.html)
 
 Escape Soy Wax Candles and Gifts is a website that is designed to attract any consumer with an interest of natural soy wax candles, buying gifts/gift ideas and interactive workshops. This website showcases beautiful images and detailed descriptions of the products available to them and the workshops that are planned for future dates. There is also a “contact us” page, if they require any further information, or would simply like to sign up for a free brochure and discount code to use with their first order, all of which are useful and attractive to the target audience in order persuade them to purchase a product or workshop package. 
 
@@ -6,9 +6,9 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 
 ## Contents
 
-### User Experience
+### [User Experience](#user-experience-ux)
 
-### Design Features
+### [Design Features](#design-features-1)
 * Header and Navigation
 * Main Section Homepage
 * Footer
@@ -21,20 +21,20 @@ Escape Soy Wax Candles and Gifts is a website that is designed to attract any co
 * Typography
 * Wireframes
 
-### Languages Used
+### [Languages Used](#languages-used-1)
 
-### Technologies Used
+### [Technologies Used](#technologies-used-1)
 
-### Deployment and Local Deployment
+### [Deployment and Local Deployment](#deployment-and-local-depyloyment)
 * Deployment 
 * Local Deployment
 
-### Testing
+### [Testing](#testing-1)
 * W3C Validator
 * Bugs
 * Full Testing
 
-### Credits 
+### [Credits](#credits-1)
 
 ## User Experience (UX)
 
