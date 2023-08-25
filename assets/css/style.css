@@ -20,7 +20,7 @@ body {
     /* Generic project styles */
     color: var(--black);
     font-family: "Amiri", sans-serif;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
