@@ -256,7 +256,7 @@ footer {
 /* Page 4 Contact Us Page */
 
 #pg4text {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     margin: 20px;
@@ -293,6 +293,7 @@ footer {
 .recycletext {
     font-size: 0.8rem;
     text-align: center;
+    letter-spacing: 0.1rem;
     width: 20%;
     float: left
 }
@@ -417,7 +418,6 @@ footer {
 
 
     /* Page 3 Workshop */
-    /* These are IDs as they have different content */
 
     #question {
         font-size: 1.8rem;
@@ -796,7 +796,7 @@ footer {
     }
 
     .recycletext {
-        font-size: 2.5rem;
+        font-size: 1rem;
         width: 100%;
     }
 
